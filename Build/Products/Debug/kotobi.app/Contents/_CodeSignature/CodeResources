@@ -31,6 +31,24 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/IDEBundleInjection.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			SFFE3ebPQgPOqg9tIlCC2ImFzVk=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"485144dde6cf4203ceaa0f6d225082d88985cd59" or cdhash H"dc8ea4516afc29ad1b8d4ff01df68f0e9a5ca5a4"</string>
+		</dict>
+		<key>Frameworks/XCTest.framework</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			XA3oABNrt58puJXV30q555tZ06w=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"5c0de800136bb79f29b895d5df4ab9e79b59d3ac" or cdhash H"643d3f64cb5115be7760004e0710267fa9b86c31"</string>
+		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>
 			<key>cdhash</key>
@@ -174,6 +192,15 @@
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftos" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: merhab@merhab.com (968XV8XM33)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>PlugIns/kotobiTests.xctest</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			vCRz0392RenXSlW769G8H/Jav5E=
+			</data>
+			<key>requirement</key>
+			<string>cdhash H"bc2473d37f7645e9d74a55bbebd1bc1ff25abf91"</string>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/5gI-5U-AMq-view-ERx-hH-rdd.nib</key>
 		<dict>

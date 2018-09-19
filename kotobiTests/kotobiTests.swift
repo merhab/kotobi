@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import kotobi
 
 class kotobiTests: XCTestCase {
     
@@ -21,7 +22,8 @@ class kotobiTests: XCTestCase {
     }
     
     func testExample() {
-        print(MNFile.getAppPath())
+        let bahth = MNBahth(bahth: "العلم لله أو لا أدري ماذا")
+        print(bahth.sqlBahth)
         
     }
     

@@ -8,27 +8,26 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "!"
+- !private "!="
 - "AssignmentPrecedence"
 - !private "BooksCat"
 - !private "BooksList"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
 - "DBBooksList"
+- !private "DBFahresKalimat"
 - "DBMNrecord"
-- !private "FahresKalimat"
-- !private "Int"
+- !private "Kalima"
 - "MNDatabase"
 - !private "MNFile"
 - "MNRecordset"
 - !private "Men"
 - "String"
-- !private "URL"
 - !private "print"
 depends-member:
 - !private ["Sa", "append"]
 - !private ["s23BidirectionalCollectionP", "append"]
 - !private ["s23BidirectionalCollectionP", "init"]
-- !private ["s13BinaryIntegerP", "init"]
 - !private ["6kotobi7BindingP", "_getBuiltinLogicValue"]
 - !private ["6kotobi7BindingP", "init"]
 - !private ["6kotobi8BooksCatC", "bkCatId"]
@@ -48,35 +47,29 @@ depends-member:
 - !private ["s10ComparableP", "bkCatOrder"]
 - !private ["s10ComparableP", "bkCatTitle"]
 - !private ["s10ComparableP", "bkId"]
+- !private ["s10ComparableP", "getTableName"]
 - !private ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "menId"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
-- !private ["s28CustomDebugStringConvertibleP", "deletingPathExtension"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
-- !private ["s29CustomPlaygroundQuickLookableP", "deletingPathExtension"]
 - !private ["s29CustomPlaygroundQuickLookableP", "init"]
-- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "append"]
-- !private ["s23CustomStringConvertibleP", "deletingPathExtension"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
 - !private ["6kotobi11DBBooksListC", "BooksCat"]
 - !private ["6kotobi11DBBooksListC", "BooksList"]
+- !private ["6kotobi11DBBooksListC", "DBFahresKalimat"]
 - ["6kotobi11DBBooksListC", "DBMNrecord"]
-- !private ["6kotobi11DBBooksListC", "FahresKalimat"]
-- !private ["6kotobi11DBBooksListC", "Int"]
+- !private ["6kotobi11DBBooksListC", "Kalima"]
 - ["6kotobi11DBBooksListC", "MNDatabase"]
 - !private ["6kotobi11DBBooksListC", "MNFile"]
 - ["6kotobi11DBBooksListC", "MNRecordset"]
 - !private ["6kotobi11DBBooksListC", "Men"]
 - ["6kotobi11DBBooksListC", "String"]
-- !private ["6kotobi11DBBooksListC", "URL"]
 - ["6kotobi11DBBooksListC", "dataBase"]
 - ["6kotobi11DBBooksListC", "dbBooksList"]
 - ["6kotobi11DBBooksListC", "dbCat"]
@@ -91,6 +84,8 @@ depends-member:
 - ["6kotobi11DBBooksListC", "rdsBooksList"]
 - ["6kotobi11DBBooksListC", "rdsCat"]
 - ["6kotobi11DBBooksListC", "rdsMen"]
+- !private ["6kotobi15DBFahresKalimatC", "fahrasatKitab"]
+- !private ["6kotobi15DBFahresKalimatC", "init"]
 - !private ["6kotobi10DBMNrecordC", "createTable"]
 - !private ["6kotobi10DBMNrecordC", "getFirstRecord"]
 - !private ["6kotobi10DBMNrecordC", "getRecordWithId"]
@@ -103,14 +98,10 @@ depends-member:
 - !private ["6kotobi10DBMNrecordC", "updateTableStruct"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
-- !private ["s9DecodableP", "deletingPathExtension"]
 - !private ["s9DecodableP", "init"]
-- !private ["s9DecodableP", "lastPathComponent"]
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "append"]
-- !private ["s9EncodableP", "deletingPathExtension"]
 - !private ["s9EncodableP", "init"]
-- !private ["s9EncodableP", "lastPathComponent"]
 - !private ["s9EquatableP", "ID"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "append"]
@@ -118,34 +109,32 @@ depends-member:
 - !private ["s9EquatableP", "bkCatOrder"]
 - !private ["s9EquatableP", "bkCatTitle"]
 - !private ["s9EquatableP", "bkId"]
-- !private ["s9EquatableP", "deletingPathExtension"]
+- !private ["s9EquatableP", "getTableName"]
 - !private ["s9EquatableP", "init"]
-- !private ["s9EquatableP", "lastPathComponent"]
 - !private ["s9EquatableP", "menId"]
 - !private ["6kotobi11ExpressibleP", "_getBuiltinLogicValue"]
 - !private ["6kotobi11ExpressibleP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["6kotobi13FahresKalimatC", "fahrasatKitab"]
-- !private ["6kotobi13FahresKalimatC", "init"]
-- !private ["s17FixedWidthIntegerP", "init"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
-- !private ["s8HashableP", "deletingPathExtension"]
 - !private ["s8HashableP", "init"]
-- !private ["s8HashableP", "lastPathComponent"]
-- !private ["Si", "init"]
+- !private ["6kotobi6KalimaC", "getTableName"]
+- !private ["6kotobi6KalimaC", "init"]
+- !private ["6kotobi5KitabC", "fahrasatKitab"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["6kotobi10MNDatabaseC", "init"]
+- !private ["6kotobi10MNDatabaseC", "tableIsEmpty"]
 - !private ["6kotobi6MNFileC", "booksFolderName"]
 - !private ["6kotobi6MNFileC", "createDbFolder"]
 - !private ["6kotobi6MNFileC", "deleteFile"]
 - !private ["6kotobi6MNFileC", "fileExists"]
 - !private ["6kotobi6MNFileC", "getDataBasePath"]
+- !private ["6kotobi6MNFileC", "getFihrasPathFromBookId"]
+- !private ["6kotobi6MNFileC", "getIdFromPath"]
 - !private ["6kotobi6MNFileC", "moveFileToBookFolder"]
 - !private ["6kotobi6MNFileC", "searchDbFilesInDoc"]
 - !private ["6kotobi6MNFileC", "searchDbFilesInInbox"]
@@ -157,59 +146,41 @@ depends-member:
 - !private ["6kotobi8MNrecordC", "bkCatOrder"]
 - !private ["6kotobi8MNrecordC", "bkCatTitle"]
 - !private ["6kotobi8MNrecordC", "bkId"]
+- !private ["6kotobi8MNrecordC", "getTableName"]
 - !private ["6kotobi8MNrecordC", "init"]
 - !private ["6kotobi8MNrecordC", "menId"]
 - !private ["6kotobi3MenC", "init"]
 - !private ["6kotobi3MenC", "menId"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "append"]
-- !private ["6kotobi6NumberP", "init"]
-- !private ["s7NumericP", "init"]
 - !private ["s22RandomAccessCollectionP", "append"]
 - !private ["s26RangeReplaceableCollectionP", "append"]
 - !private ["s26RangeReplaceableCollectionP", "init"]
-- !private ["10Foundation20ReferenceConvertibleP", "deletingPathExtension"]
-- !private ["10Foundation20ReferenceConvertibleP", "init"]
-- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
 - !private ["s8SequenceP", "append"]
 - !private ["s8SequenceP", "init"]
-- !private ["s13SignedIntegerP", "init"]
-- !private ["s13SignedNumericP", "init"]
-- !private ["s10StrideableP", "init"]
 - !private ["SS", "deinit"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "init"]
 - !private ["s20TextOutputStreamableP", "init"]
-- !private ["10Foundation3URLV", "deletingPathExtension"]
-- !private ["10Foundation3URLV", "init"]
-- !private ["10Foundation3URLV", "lastPathComponent"]
 - !private ["6kotobi17UTF8InitializableP", "init"]
 - !private ["6kotobi5ValueP", "_getBuiltinLogicValue"]
 - !private ["6kotobi5ValueP", "init"]
 - !private ["s14_ArrayProtocolP", "append"]
-- !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s34_ExpressibleByFileReferenceLiteralP", "deletingPathExtension"]
-- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
-- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
-- !private ["s21_ObjectiveCBridgeableP", "deletingPathExtension"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
-- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
 - !private ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - !private "Sa"
 - !private "s23BidirectionalCollectionP"
-- !private "s13BinaryIntegerP"
 - !private "6kotobi7BindingP"
 - !private "6kotobi8BooksCatC"
 - !private "6kotobi9BooksListC"
@@ -222,6 +193,7 @@ depends-nominal:
 - !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
 - "6kotobi11DBBooksListC"
+- !private "6kotobi15DBFahresKalimatC"
 - !private "6kotobi10DBMNrecordC"
 - !private "s9DecodableP"
 - !private "s9EncodableP"
@@ -230,13 +202,11 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
-- !private "6kotobi13FahresKalimatC"
-- !private "s17FixedWidthIntegerP"
 - !private "s8HashableP"
-- !private "Si"
+- !private "6kotobi6KalimaC"
+- !private "6kotobi5KitabC"
 - !private "s25LosslessStringConvertibleP"
 - !private "6kotobi10MNDatabaseC"
 - !private "6kotobi6MNFileC"
@@ -245,32 +215,22 @@ depends-nominal:
 - !private "6kotobi3MenC"
 - !private "s10MirrorPathP"
 - !private "s17MutableCollectionP"
-- !private "6kotobi6NumberP"
-- !private "s7NumericP"
 - !private "s22RandomAccessCollectionP"
 - !private "s26RangeReplaceableCollectionP"
-- !private "10Foundation20ReferenceConvertibleP"
 - !private "s8SequenceP"
-- !private "s13SignedIntegerP"
-- !private "s13SignedNumericP"
-- !private "s10StrideableP"
 - !private "SS"
 - !private "s14StringProtocolP"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- !private "10Foundation3URLV"
 - !private "6kotobi17UTF8InitializableP"
 - !private "6kotobi5ValueP"
 - !private "s14_ArrayProtocolP"
-- !private "s18_BitwiseOperationsP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s21_ObjectiveCBridgeableP"
 - !private "s16_SwiftStringViewP"

@@ -270,7 +270,6 @@ depends-member:
 - !private ["6kotobi6KalimaC", "ID"]
 - ["6kotobi6KalimaC", "Int"]
 - !private ["6kotobi6KalimaC", "Kalima"]
-- ["6kotobi6KalimaC", "KalimaDescription"]
 - !private ["6kotobi6KalimaC", "StemConst"]
 - ["6kotobi6KalimaC", "String"]
 - ["6kotobi6KalimaC", "deinit"]
@@ -281,7 +280,6 @@ depends-member:
 - ["6kotobi6KalimaC", "getPrefix"]
 - ["6kotobi6KalimaC", "getSuffix"]
 - ["6kotobi6KalimaC", "init"]
-- ["6kotobi6KalimaC", "kalimaDiscription"]
 - ["6kotobi6KalimaC", "mnKitabId"]
 - ["6kotobi6KalimaC", "mnSafhaId"]
 - ["6kotobi6KalimaC", "mnTartibInSafha"]
@@ -316,7 +314,6 @@ depends-member:
 - !private ["6kotobi8MNrecordC", "ID"]
 - ["6kotobi8MNrecordC", "Int"]
 - ["6kotobi8MNrecordC", "Kalima"]
-- ["6kotobi8MNrecordC", "KalimaDescription"]
 - !private ["6kotobi8MNrecordC", "StemConst"]
 - ["6kotobi8MNrecordC", "String"]
 - ["6kotobi8MNrecordC", ""]
@@ -331,7 +328,6 @@ depends-member:
 - ["6kotobi8MNrecordC", "idSafha"]
 - ["6kotobi8MNrecordC", "init"]
 - ["6kotobi8MNrecordC", "kalimaDhamir"]
-- ["6kotobi8MNrecordC", "kalimaDiscription"]
 - ["6kotobi8MNrecordC", "kalimaId"]
 - ["6kotobi8MNrecordC", "kalimaJithr"]
 - ["6kotobi8MNrecordC", "kalimaType"]
@@ -720,4 +716,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "cba3445100439efe0d49a29c899062c7"
+interface-hash: "e8eaba9bf6220da3e9b470b18aa39500"

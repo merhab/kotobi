@@ -10,10 +10,11 @@
 	<string>sqlite3</string>
 	<string>XCTest</string>
 	<string>SQLiteObjc</string>
+	<string>kotobi</string>
 	<string>CoreData</string>
-	<string>AppKit</string>
 	<string>Foundation</string>
 	<string>CSQLite</string>
 	<string>Cocoa</string>
+	<string>AppKit</string>
 </array>
 </plist>

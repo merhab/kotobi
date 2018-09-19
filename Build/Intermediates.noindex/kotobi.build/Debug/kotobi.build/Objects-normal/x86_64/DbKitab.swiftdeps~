@@ -7,6 +7,7 @@ provides-member:
 - ["6kotobi7DbKitabC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!="
 - "AssignmentPrecedence"
 - !private "Book"
 - "Bool"
@@ -16,11 +17,13 @@ depends-top-level:
 - "Int"
 - !private "Int64"
 - !private "Kalima"
-- "MNDatabase"
+- "Kitab"
+- !private "MNDatabase"
 - !private "MNFile"
 - "MNRecordset"
 - !private "MNrecordParams"
 - "Nass"
+- "String"
 - !private "StringLiteralType"
 depends-member:
 - !private ["Sa", "subscript"]
@@ -39,6 +42,8 @@ depends-member:
 - !private ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
 - !private ["s10ComparableP", "ID"]
+- !private ["s10ComparableP", "compress"]
+- !private ["s10ComparableP", "deCompress"]
 - !private ["s10ComparableP", "getWords"]
 - !private ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "pgText"]
@@ -57,6 +62,7 @@ depends-member:
 - !private ["6kotobi10DBMNrecordC", "init"]
 - !private ["6kotobi10DBMNrecordC", "record"]
 - !private ["6kotobi10DBMNrecordC", "tableName"]
+- !private ["6kotobi10DBMNrecordC", "update"]
 - !private ["6kotobi10DBMNrecordC", "updateTableStruct"]
 - !private ["6kotobi7DbKitabC", "Book"]
 - ["6kotobi7DbKitabC", "Bool"]
@@ -64,17 +70,18 @@ depends-member:
 - ["6kotobi7DbKitabC", "Int"]
 - !private ["6kotobi7DbKitabC", "Int64"]
 - !private ["6kotobi7DbKitabC", "Kalima"]
-- ["6kotobi7DbKitabC", "MNDatabase"]
+- !private ["6kotobi7DbKitabC", "MNDatabase"]
 - !private ["6kotobi7DbKitabC", "MNFile"]
 - ["6kotobi7DbKitabC", "MNRecordset"]
 - !private ["6kotobi7DbKitabC", "MNrecordParams"]
 - ["6kotobi7DbKitabC", "Nass"]
+- ["6kotobi7DbKitabC", "String"]
 - ["6kotobi7DbKitabC", "akhir"]
 - ["6kotobi7DbKitabC", "akhirKitab"]
 - ["6kotobi7DbKitabC", "awal"]
 - ["6kotobi7DbKitabC", "awalKitab"]
+- ["6kotobi7DbKitabC", "compressSafha"]
 - !private ["6kotobi7DbKitabC", "currentSafha"]
-- ["6kotobi7DbKitabC", "dataBase"]
 - ["6kotobi7DbKitabC", "dbKitabParam"]
 - !private ["6kotobi7DbKitabC", "dbSafha"]
 - ["6kotobi7DbKitabC", "deinit"]
@@ -82,9 +89,11 @@ depends-member:
 - ["6kotobi7DbKitabC", "idhab"]
 - ["6kotobi7DbKitabC", "init"]
 - ["6kotobi7DbKitabC", "khawi"]
-- ["6kotobi7DbKitabC", "kitabId"]
+- !private ["6kotobi7DbKitabC", "kitabId"]
 - ["6kotobi7DbKitabC", "lahik"]
+- ["6kotobi7DbKitabC", "nass"]
 - !private ["6kotobi7DbKitabC", "rdsKitab"]
+- ["6kotobi7DbKitabC", "readCompressedSafha"]
 - ["6kotobi7DbKitabC", "sabik"]
 - ["6kotobi7DbKitabC", "safhaId"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
@@ -96,6 +105,8 @@ depends-member:
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EquatableP", "ID"]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "compress"]
+- !private ["s9EquatableP", "deCompress"]
 - !private ["s9EquatableP", "getWords"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "pgText"]
@@ -114,6 +125,38 @@ depends-member:
 - !private ["s8HashableP", "init"]
 - !private ["Si", "init"]
 - !private ["6kotobi6KalimaC", "init"]
+- !private ["6kotobi5KitabC", "Book"]
+- ["6kotobi5KitabC", "Bool"]
+- ["6kotobi5KitabC", "DBMNrecord"]
+- ["6kotobi5KitabC", "Int"]
+- !private ["6kotobi5KitabC", "Int64"]
+- !private ["6kotobi5KitabC", "Kalima"]
+- !private ["6kotobi5KitabC", "MNDatabase"]
+- !private ["6kotobi5KitabC", "MNFile"]
+- ["6kotobi5KitabC", "MNRecordset"]
+- !private ["6kotobi5KitabC", "MNrecordParams"]
+- ["6kotobi5KitabC", "Nass"]
+- ["6kotobi5KitabC", "String"]
+- ["6kotobi5KitabC", ""]
+- ["6kotobi5KitabC", "akhir"]
+- ["6kotobi5KitabC", "akhirKitab"]
+- ["6kotobi5KitabC", "awal"]
+- ["6kotobi5KitabC", "awalKitab"]
+- ["6kotobi5KitabC", "compressSafha"]
+- ["6kotobi5KitabC", "currentSafha"]
+- ["6kotobi5KitabC", "dbKitabParam"]
+- ["6kotobi5KitabC", "dbSafha"]
+- ["6kotobi5KitabC", "getCurrentSafha"]
+- ["6kotobi5KitabC", "idhab"]
+- ["6kotobi5KitabC", "init"]
+- ["6kotobi5KitabC", "khawi"]
+- !private ["6kotobi5KitabC", "kitabId"]
+- ["6kotobi5KitabC", "lahik"]
+- ["6kotobi5KitabC", "nass"]
+- ["6kotobi5KitabC", "rdsKitab"]
+- ["6kotobi5KitabC", "readCompressedSafha"]
+- ["6kotobi5KitabC", "sabik"]
+- ["6kotobi5KitabC", "safhaId"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "init"]
 - !private ["6kotobi10MNDatabaseC", "init"]
@@ -128,12 +171,16 @@ depends-member:
 - !private ["6kotobi11MNRecordsetC", "moveNext"]
 - !private ["6kotobi11MNRecordsetC", "movePreior"]
 - !private ["6kotobi8MNrecordC", "ID"]
+- !private ["6kotobi8MNrecordC", "compress"]
+- !private ["6kotobi8MNrecordC", "deCompress"]
 - !private ["6kotobi8MNrecordC", "getWords"]
 - !private ["6kotobi8MNrecordC", "init"]
 - !private ["6kotobi8MNrecordC", "pgText"]
 - !private ["6kotobi14MNrecordParamsC", "init"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "subscript"]
+- !private ["6kotobi4NassC", "compress"]
+- !private ["6kotobi4NassC", "deCompress"]
 - !private ["6kotobi4NassC", "getWords"]
 - !private ["6kotobi4NassC", "init"]
 - !private ["6kotobi6NumberP", "init"]
@@ -145,6 +192,7 @@ depends-member:
 - !private ["s8SequenceP", "subscript"]
 - !private ["s13SignedIntegerP", "init"]
 - !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
 - !private ["s10StrideableP", "init"]
 - !private ["SS", "init"]
 - !private ["s14StringProtocolP", "init"]
@@ -199,6 +247,7 @@ depends-nominal:
 - !private "s8HashableP"
 - !private "Si"
 - !private "6kotobi6KalimaC"
+- "6kotobi5KitabC"
 - !private "s25LosslessStringConvertibleP"
 - !private "6kotobi10MNDatabaseC"
 - !private "6kotobi6MNFileC"
@@ -215,6 +264,7 @@ depends-nominal:
 - !private "s8SequenceP"
 - !private "s13SignedIntegerP"
 - !private "s13SignedNumericP"
+- !private "s12StaticStringV"
 - !private "s10StrideableP"
 - !private "SS"
 - !private "s14StringProtocolP"
@@ -263,4 +313,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "7f3065b21fdcffd41bef85316ea82a61"
+interface-hash: "a465d18f3c740b087f9d8f1b50027ff7"
