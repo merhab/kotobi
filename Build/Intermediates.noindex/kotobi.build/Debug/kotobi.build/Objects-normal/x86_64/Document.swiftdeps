@@ -1,0 +1,282 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Document"
+provides-nominal:
+- "6kotobi8DocumentC"
+provides-member:
+- ["6kotobi8DocumentC", ""]
+provides-dynamic-lookup:
+- "autosavesInPlace"
+- "data"
+- "makeWindowControllers"
+- "read"
+depends-top-level:
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- "Document"
+- "NSDocument"
+- !private "NSError"
+- !private "NSOSStatusErrorDomain"
+- !private "NSStoryboard"
+- !private "NSWindowController"
+- "String"
+- !private "StringLiteralType"
+- !private "unimpErr"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["6kotobi7BindingP", "init"]
+- !private ["s7CVarArgP", "NSError"]
+- !private ["s7CVarArgP", "NSOSStatusErrorDomain"]
+- !private ["s7CVarArgP", "NSStoryboard"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "SceneIdentifier"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addWindowController"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "instantiateController"]
+- !private ["s7CVarArgP", "unimpErr"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSError"]
+- !private ["s28CustomDebugStringConvertibleP", "NSOSStatusErrorDomain"]
+- !private ["s28CustomDebugStringConvertibleP", "NSStoryboard"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "SceneIdentifier"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addWindowController"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "instantiateController"]
+- !private ["s28CustomDebugStringConvertibleP", "unimpErr"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSError"]
+- !private ["s23CustomStringConvertibleP", "NSOSStatusErrorDomain"]
+- !private ["s23CustomStringConvertibleP", "NSStoryboard"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "SceneIdentifier"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addWindowController"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "instantiateController"]
+- !private ["s23CustomStringConvertibleP", "unimpErr"]
+- !private ["s9DecodableP", "init"]
+- ["6kotobi8DocumentC", "Bool"]
+- ["6kotobi8DocumentC", "Data"]
+- !private ["6kotobi8DocumentC", "NSError"]
+- !private ["6kotobi8DocumentC", "NSOSStatusErrorDomain"]
+- !private ["6kotobi8DocumentC", "NSStoryboard"]
+- !private ["6kotobi8DocumentC", "NSWindowController"]
+- ["6kotobi8DocumentC", "String"]
+- !private ["6kotobi8DocumentC", "addWindowController"]
+- ["6kotobi8DocumentC", "autosavesInPlace"]
+- ["6kotobi8DocumentC", "data"]
+- ["6kotobi8DocumentC", "deinit"]
+- ["6kotobi8DocumentC", "init"]
+- ["6kotobi8DocumentC", "makeWindowControllers"]
+- ["6kotobi8DocumentC", "read"]
+- !private ["6kotobi8DocumentC", "unimpErr"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "NSError"]
+- !private ["s9EquatableP", "NSOSStatusErrorDomain"]
+- !private ["s9EquatableP", "NSStoryboard"]
+- !private ["s9EquatableP", "Name"]
+- !private ["s9EquatableP", "SceneIdentifier"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "addWindowController"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "instantiateController"]
+- !private ["s9EquatableP", "unimpErr"]
+- !private ["s5ErrorP", "init"]
+- !private ["6kotobi11ExpressibleP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "NSError"]
+- !private ["s8HashableP", "NSOSStatusErrorDomain"]
+- !private ["s8HashableP", "NSStoryboard"]
+- !private ["s8HashableP", "Name"]
+- !private ["s8HashableP", "SceneIdentifier"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "addWindowController"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "instantiateController"]
+- !private ["s8HashableP", "unimpErr"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- ["So10NSDocumentC", "Bool"]
+- ["So10NSDocumentC", "Data"]
+- !private ["So10NSDocumentC", "NSError"]
+- !private ["So10NSDocumentC", "NSOSStatusErrorDomain"]
+- !private ["So10NSDocumentC", "NSStoryboard"]
+- !private ["So10NSDocumentC", "NSWindowController"]
+- ["So10NSDocumentC", "String"]
+- ["So10NSDocumentC", ""]
+- !private ["So10NSDocumentC", "addWindowController"]
+- ["So10NSDocumentC", "autosavesInPlace"]
+- ["So10NSDocumentC", "data"]
+- ["So10NSDocumentC", "init"]
+- ["So10NSDocumentC", "makeWindowControllers"]
+- ["So10NSDocumentC", "read"]
+- !private ["So10NSDocumentC", "unimpErr"]
+- !private ["So7NSErrorC", "init"]
+- !private ["So15NSFilePresenterP", "NSError"]
+- !private ["So15NSFilePresenterP", "NSOSStatusErrorDomain"]
+- !private ["So15NSFilePresenterP", "NSStoryboard"]
+- ["So15NSFilePresenterP", ""]
+- !private ["So15NSFilePresenterP", "addWindowController"]
+- !private ["So15NSFilePresenterP", "init"]
+- !private ["So15NSFilePresenterP", "unimpErr"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Data"]
+- !private ["So8NSObjectC", "NSError"]
+- !private ["So8NSObjectC", "NSOSStatusErrorDomain"]
+- !private ["So8NSObjectC", "NSStoryboard"]
+- !private ["So8NSObjectC", "NSWindowController"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "SceneIdentifier"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "addWindowController"]
+- ["So8NSObjectC", "autosavesInPlace"]
+- ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "instantiateController"]
+- ["So8NSObjectC", "makeWindowControllers"]
+- ["So8NSObjectC", "read"]
+- !private ["So8NSObjectC", "unimpErr"]
+- !private ["So16NSObjectProtocolP", "NSError"]
+- !private ["So16NSObjectProtocolP", "NSOSStatusErrorDomain"]
+- !private ["So16NSObjectProtocolP", "NSStoryboard"]
+- !private ["So16NSObjectProtocolP", "Name"]
+- !private ["So16NSObjectProtocolP", "SceneIdentifier"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addWindowController"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "instantiateController"]
+- !private ["So16NSObjectProtocolP", "unimpErr"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So12NSStoryboardC", "Name"]
+- !private ["So12NSStoryboardC", "SceneIdentifier"]
+- !private ["So12NSStoryboardC", "init"]
+- !private ["So12NSStoryboardC", "instantiateController"]
+- !private ["So26NSUserInterfaceValidationsP", "NSError"]
+- !private ["So26NSUserInterfaceValidationsP", "NSOSStatusErrorDomain"]
+- !private ["So26NSUserInterfaceValidationsP", "NSStoryboard"]
+- ["So26NSUserInterfaceValidationsP", ""]
+- !private ["So26NSUserInterfaceValidationsP", "addWindowController"]
+- !private ["So26NSUserInterfaceValidationsP", "init"]
+- !private ["So26NSUserInterfaceValidationsP", "unimpErr"]
+- !private ["So12NSStoryboardC4NameV", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["So12NSStoryboardC15SceneIdentifierV", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["6kotobi17UTF8InitializableP", "init"]
+- !private ["6kotobi5ValueP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSOSStatusErrorDomain"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSStoryboard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SceneIdentifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addWindowController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "instantiateController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unimpErr"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "6kotobi7BindingP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- "6kotobi8DocumentC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "6kotobi11ExpressibleP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So10NSDocumentC"
+- !private "So7NSErrorC"
+- "So15NSFilePresenterP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So12NSStoryboardC"
+- "So26NSUserInterfaceValidationsP"
+- !private "So12NSStoryboardC4NameV"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "So12NSStoryboardC15SceneIdentifierV"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "6kotobi17UTF8InitializableP"
+- !private "6kotobi5ValueP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "548d8a5a0609a8097100745471ef222d"

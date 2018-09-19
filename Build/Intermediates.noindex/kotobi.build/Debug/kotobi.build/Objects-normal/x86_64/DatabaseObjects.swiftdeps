@@ -1,0 +1,234 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MNrecordParams"
+- "BooksList"
+- "Men"
+- "Book"
+- "BookIndex"
+- "BooksCat"
+provides-nominal:
+- "6kotobi14MNrecordParamsC"
+- "6kotobi9BooksListC"
+- "6kotobi3MenC"
+- "6kotobi4BookC"
+- "6kotobi9BookIndexC"
+- "6kotobi8BooksCatC"
+provides-member:
+- ["6kotobi14MNrecordParamsC", ""]
+- ["6kotobi9BooksListC", ""]
+- ["6kotobi3MenC", ""]
+- ["6kotobi4BookC", ""]
+- ["6kotobi9BookIndexC", ""]
+- ["6kotobi8BooksCatC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Book"
+- "BookIndex"
+- "BooksCat"
+- "BooksList"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "MNrecord"
+- "MNrecordParams"
+- "Men"
+- "StringLiteralType"
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- ["6kotobi7BindingP", "init"]
+- ["6kotobi4BookC", "deinit"]
+- ["6kotobi4BookC", "init"]
+- ["6kotobi4BookC", "pgFormattedText"]
+- ["6kotobi4BookC", "pgId"]
+- ["6kotobi4BookC", "pgIndexedText"]
+- ["6kotobi4BookC", "pgOrder"]
+- ["6kotobi4BookC", "pgText"]
+- ["6kotobi4BookC", "pgVersion"]
+- ["6kotobi4BookC", "volume"]
+- ["6kotobi9BookIndexC", "IndParent"]
+- ["6kotobi9BookIndexC", "deinit"]
+- ["6kotobi9BookIndexC", "indDeep"]
+- ["6kotobi9BookIndexC", "indFormattedText"]
+- ["6kotobi9BookIndexC", "indId"]
+- ["6kotobi9BookIndexC", "indIndexedText"]
+- ["6kotobi9BookIndexC", "indOrder"]
+- ["6kotobi9BookIndexC", "indText"]
+- ["6kotobi9BookIndexC", "init"]
+- ["6kotobi8BooksCatC", "bkCatDeep"]
+- ["6kotobi8BooksCatC", "bkCatId"]
+- ["6kotobi8BooksCatC", "bkCatOrder"]
+- ["6kotobi8BooksCatC", "bkCatParentId"]
+- ["6kotobi8BooksCatC", "bkCatTitle"]
+- ["6kotobi8BooksCatC", "bkCatTitleFormatted"]
+- ["6kotobi8BooksCatC", "bkCatTitleIndexed"]
+- ["6kotobi8BooksCatC", "deinit"]
+- ["6kotobi8BooksCatC", "init"]
+- ["6kotobi9BooksListC", "bkAuthor"]
+- ["6kotobi9BooksListC", "bkAuthorInfo"]
+- ["6kotobi9BooksListC", "bkCatId"]
+- ["6kotobi9BooksListC", "bkId"]
+- ["6kotobi9BooksListC", "bkMohakik"]
+- ["6kotobi9BooksListC", "bkPublisher"]
+- ["6kotobi9BooksListC", "bkTitle"]
+- ["6kotobi9BooksListC", "bkVersion"]
+- ["6kotobi9BooksListC", "bkYearPublication"]
+- ["6kotobi9BooksListC", "deinit"]
+- ["6kotobi9BooksListC", "init"]
+- ["s7CVarArgP", "init"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", ""]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s9DecodableP", "init"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "init"]
+- ["6kotobi11ExpressibleP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["6kotobi8MNrecordC", "IndParent"]
+- ["6kotobi8MNrecordC", ""]
+- ["6kotobi8MNrecordC", "bkAuthor"]
+- ["6kotobi8MNrecordC", "bkAuthorInfo"]
+- ["6kotobi8MNrecordC", "bkCatDeep"]
+- ["6kotobi8MNrecordC", "bkCatId"]
+- ["6kotobi8MNrecordC", "bkCatOrder"]
+- ["6kotobi8MNrecordC", "bkCatParentId"]
+- ["6kotobi8MNrecordC", "bkCatTitle"]
+- ["6kotobi8MNrecordC", "bkCatTitleFormatted"]
+- ["6kotobi8MNrecordC", "bkCatTitleIndexed"]
+- ["6kotobi8MNrecordC", "bkId"]
+- ["6kotobi8MNrecordC", "bkMohakik"]
+- ["6kotobi8MNrecordC", "bkPublisher"]
+- ["6kotobi8MNrecordC", "bkTitle"]
+- ["6kotobi8MNrecordC", "bkVersion"]
+- ["6kotobi8MNrecordC", "bkYearPublication"]
+- ["6kotobi8MNrecordC", "currentPosition"]
+- ["6kotobi8MNrecordC", "indDeep"]
+- ["6kotobi8MNrecordC", "indFormattedText"]
+- ["6kotobi8MNrecordC", "indId"]
+- ["6kotobi8MNrecordC", "indIndexedText"]
+- ["6kotobi8MNrecordC", "indOrder"]
+- ["6kotobi8MNrecordC", "indText"]
+- ["6kotobi8MNrecordC", "init"]
+- ["6kotobi8MNrecordC", "menDieYear"]
+- ["6kotobi8MNrecordC", "menFullName"]
+- ["6kotobi8MNrecordC", "menId"]
+- ["6kotobi8MNrecordC", "menInfo"]
+- ["6kotobi8MNrecordC", "menName"]
+- ["6kotobi8MNrecordC", "menSurName"]
+- ["6kotobi8MNrecordC", "menTown"]
+- ["6kotobi8MNrecordC", "menbirthYear"]
+- ["6kotobi8MNrecordC", "pgFormattedText"]
+- ["6kotobi8MNrecordC", "pgId"]
+- ["6kotobi8MNrecordC", "pgIndexedText"]
+- ["6kotobi8MNrecordC", "pgOrder"]
+- ["6kotobi8MNrecordC", "pgText"]
+- ["6kotobi8MNrecordC", "pgVersion"]
+- ["6kotobi8MNrecordC", "volume"]
+- ["6kotobi14MNrecordParamsC", "currentPosition"]
+- ["6kotobi14MNrecordParamsC", "deinit"]
+- ["6kotobi14MNrecordParamsC", "init"]
+- ["6kotobi3MenC", "deinit"]
+- ["6kotobi3MenC", "init"]
+- ["6kotobi3MenC", "menDieYear"]
+- ["6kotobi3MenC", "menFullName"]
+- ["6kotobi3MenC", "menId"]
+- ["6kotobi3MenC", "menInfo"]
+- ["6kotobi3MenC", "menName"]
+- ["6kotobi3MenC", "menSurName"]
+- ["6kotobi3MenC", "menTown"]
+- ["6kotobi3MenC", "menbirthYear"]
+- ["s10MirrorPathP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["6kotobi17UTF8InitializableP", "init"]
+- ["6kotobi5ValueP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "6kotobi7BindingP"
+- "6kotobi4BookC"
+- "6kotobi9BookIndexC"
+- "6kotobi8BooksCatC"
+- "6kotobi9BooksListC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "6kotobi11ExpressibleP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "6kotobi8MNrecordC"
+- "6kotobi14MNrecordParamsC"
+- "6kotobi3MenC"
+- "s10MirrorPathP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "6kotobi17UTF8InitializableP"
+- "6kotobi5ValueP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "206cd404f605caf0933bf0dd17693cbe"

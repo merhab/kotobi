@@ -1,0 +1,295 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HashedType"
+- "=="
+- "Property"
+- "properties"
+- "properties"
+- "fetchAndSaveProperties"
+provides-nominal:
+- "6kotobi10HashedTypeV"
+- "6kotobi8PropertyV"
+- "6kotobi8PropertyV11DescriptionV"
+provides-member:
+- ["6kotobi10HashedTypeV", ""]
+- ["6kotobi8PropertyV", ""]
+- ["6kotobi8PropertyV11DescriptionV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "..<"
+- "=="
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- "Hashable"
+- "HashedType"
+- "Int"
+- !private "Metadata"
+- "NominalType"
+- "Property"
+- !private "ReflectionError"
+- "String"
+- "UnsafeMutableRawPointer"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- !private "cachedProperties"
+- !private "extensions"
+- "fetchAndSaveProperties"
+- !private "nextProperty"
+- "properties"
+- !private "propertiesForNominalType"
+- !private "type"
+- !private "unsafeBitCast"
+depends-member:
+- !private ["6kotobi13AnyExtensionsP", "storage"]
+- !private ["6kotobi13AnyExtensionsP", "value"]
+- !private ["6kotobi13AnyExtensionsP", "write"]
+- !private ["Sa", "map"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "map"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["6kotobi7BindingP", "_getBuiltinLogicValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "hashValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["6kotobi8MetadataV5ClassV", "deinit"]
+- !private ["6kotobi8MetadataV5ClassV", "init"]
+- !private ["6kotobi8MetadataV5ClassV", "properties"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "map"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "advanced"]
+- !private ["s10ComparableP", "hashValue"]
+- !private ["s14CountableRangeV", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hashValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "hashValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "notStruct"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "unexpected"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "map"]
+- !private ["s9DecodableP", "subscript"]
+- ["6kotobi8PropertyV11DescriptionV", "Int"]
+- ["6kotobi8PropertyV11DescriptionV", "String"]
+- ["6kotobi8PropertyV11DescriptionV", "UnsafeMutableRawPointer"]
+- !private ["6kotobi8PropertyV11DescriptionV", "extensions"]
+- ["6kotobi8PropertyV11DescriptionV", "init"]
+- ["6kotobi8PropertyV11DescriptionV", "key"]
+- ["6kotobi8PropertyV11DescriptionV", "offset"]
+- ["6kotobi8PropertyV11DescriptionV", "type"]
+- ["6kotobi8PropertyV11DescriptionV", "write"]
+- ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "map"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Class"]
+- !private ["s9EquatableP", "Int"]
+- !private ["s9EquatableP", "Struct"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "advanced"]
+- !private ["s9EquatableP", "fieldNames"]
+- !private ["s9EquatableP", "fieldOffsets"]
+- !private ["s9EquatableP", "fieldTypes"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "map"]
+- !private ["s9EquatableP", "nominalTypeDescriptor"]
+- !private ["s9EquatableP", "notStruct"]
+- !private ["s9EquatableP", "numberOfFields"]
+- !private ["s9EquatableP", "properties"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "unexpected"]
+- !private ["s9EquatableP", "unsafeBitCast"]
+- !private ["s5ErrorP", "notStruct"]
+- !private ["s5ErrorP", "unexpected"]
+- !private ["6kotobi11ExpressibleP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s8HashableP", "Int"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "advanced"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "unsafeBitCast"]
+- ["6kotobi10HashedTypeV", "Int"]
+- ["6kotobi10HashedTypeV", "UnsafePointer"]
+- ["6kotobi10HashedTypeV", "deinit"]
+- ["6kotobi10HashedTypeV", "hashValue"]
+- ["6kotobi10HashedTypeV", "init"]
+- !private ["6kotobi10HashedTypeV", "unsafeBitCast"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["6kotobi8MetadataV", "Class"]
+- !private ["6kotobi8MetadataV", "Struct"]
+- !private ["6kotobi12MetadataTypeP", "Class"]
+- !private ["6kotobi12MetadataTypeP", "Struct"]
+- !private ["6kotobi12MetadataTypeP", "fieldOffsets"]
+- !private ["6kotobi12MetadataTypeP", "fieldTypes"]
+- !private ["6kotobi12MetadataTypeP", "init"]
+- !private ["6kotobi12MetadataTypeP", "nominalTypeDescriptor"]
+- !private ["6kotobi12MetadataTypeP", "properties"]
+- !private ["s17MutableCollectionP", "map"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["6kotobi11NominalTypeP", "fieldOffsets"]
+- !private ["6kotobi11NominalTypeP", "fieldTypes"]
+- !private ["6kotobi11NominalTypeP", "init"]
+- !private ["6kotobi11NominalTypeP", "nominalTypeDescriptor"]
+- !private ["6kotobi11NominalTypeP", "properties"]
+- !private ["6kotobi21NominalTypeDescriptorV", "fieldNames"]
+- !private ["6kotobi21NominalTypeDescriptorV", "numberOfFields"]
+- !private ["6kotobi11PointerTypeP", "Class"]
+- !private ["6kotobi11PointerTypeP", "Struct"]
+- !private ["6kotobi11PointerTypeP", "fieldNames"]
+- !private ["6kotobi11PointerTypeP", "fieldOffsets"]
+- !private ["6kotobi11PointerTypeP", "fieldTypes"]
+- !private ["6kotobi11PointerTypeP", "init"]
+- !private ["6kotobi11PointerTypeP", "nominalTypeDescriptor"]
+- !private ["6kotobi11PointerTypeP", "numberOfFields"]
+- !private ["6kotobi11PointerTypeP", "properties"]
+- ["6kotobi8PropertyV", "Description"]
+- ["6kotobi8PropertyV", "Int"]
+- ["6kotobi8PropertyV", "String"]
+- ["6kotobi8PropertyV", "UnsafeMutableRawPointer"]
+- !private ["6kotobi8PropertyV", "extensions"]
+- ["6kotobi8PropertyV", "init"]
+- ["6kotobi8PropertyV", "key"]
+- ["6kotobi8PropertyV", "value"]
+- !private ["s22RandomAccessCollectionP", "map"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s5RangeV", "map"]
+- !private ["s15RangeExpressionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "map"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["6kotobi15ReflectionErrorO", "deinit"]
+- !private ["6kotobi15ReflectionErrorO", "notStruct"]
+- !private ["6kotobi15ReflectionErrorO", "unexpected"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "map"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10StrideableP", "advanced"]
+- !private ["s10StrideableP", "hashValue"]
+- !private ["6kotobi8MetadataV6StructV", "deinit"]
+- !private ["6kotobi8MetadataV6StructV", "init"]
+- !private ["Sv", "advanced"]
+- !private ["SP", "hashValue"]
+- !private ["SV", "advanced"]
+- !private ["6kotobi5ValueP", "_getBuiltinLogicValue"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "hashValue"]
+depends-nominal:
+- !private "6kotobi13AnyExtensionsP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "6kotobi7BindingP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "6kotobi8MetadataV5ClassV"
+- "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s14CountableRangeV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "6kotobi8PropertyV11DescriptionV"
+- "s10DictionaryV"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- !private "6kotobi11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s8HashableP"
+- "6kotobi10HashedTypeV"
+- !private "s25LosslessStringConvertibleP"
+- !private "6kotobi8MetadataV"
+- !private "6kotobi12MetadataTypeP"
+- !private "s17MutableCollectionP"
+- !private "6kotobi11NominalTypeP"
+- !private "6kotobi21NominalTypeDescriptorV"
+- !private "6kotobi11PointerTypeP"
+- "6kotobi8PropertyV"
+- !private "s22RandomAccessCollectionP"
+- !private "s5RangeV"
+- !private "s15RangeExpressionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "6kotobi15ReflectionErrorO"
+- "s8SequenceP"
+- !private "s10StrideableP"
+- !private "6kotobi8MetadataV6StructV"
+- !private "Sv"
+- !private "SP"
+- !private "SV"
+- !private "6kotobi5ValueP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "de9acb64f0b8a56d55e5512d859d53e9"

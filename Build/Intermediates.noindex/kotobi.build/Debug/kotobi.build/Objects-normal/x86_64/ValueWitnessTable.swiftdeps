@@ -1,0 +1,113 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ValueWitnessTable"
+- "_ValueWitnessTable"
+provides-nominal:
+- "6kotobi17ValueWitnessTableV"
+- "6kotobi18_ValueWitnessTableV"
+provides-member:
+- ["6kotobi17ValueWitnessTableV", ""]
+- ["6kotobi18_ValueWitnessTableV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&"
+- !private "+"
+- "=="
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "PointerType"
+- "UnsafePointer"
+- "ValueWitnessTable"
+- "_ValueWitnessTable"
+depends-member:
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s17CustomReflectableP", "pointee"]
+- ["s9EquatableP", "Pointee"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_Pointee"]
+- !private ["s9EquatableP", "alignmentMask"]
+- !private ["s9EquatableP", "pointee"]
+- ["s9EquatableP", "pointer"]
+- !private ["s8HashableP", "pointee"]
+- ["6kotobi11PointerTypeP", "Pointee"]
+- ["6kotobi11PointerTypeP", ""]
+- ["6kotobi11PointerTypeP", "_Default_Pointee"]
+- !private ["6kotobi11PointerTypeP", "alignmentMask"]
+- ["6kotobi11PointerTypeP", "pointer"]
+- !private ["s10StrideableP", "pointee"]
+- !private ["SP", "pointee"]
+- ["6kotobi17ValueWitnessTableV", "Int"]
+- ["6kotobi17ValueWitnessTableV", "Pointee"]
+- ["6kotobi17ValueWitnessTableV", "UnsafePointer"]
+- ["6kotobi17ValueWitnessTableV", "_Default_Pointee"]
+- ["6kotobi17ValueWitnessTableV", "_ValueWitnessTable"]
+- ["6kotobi17ValueWitnessTableV", "align"]
+- !private ["6kotobi17ValueWitnessTableV", "alignmentMask"]
+- ["6kotobi17ValueWitnessTableV", "deinit"]
+- ["6kotobi17ValueWitnessTableV", "init"]
+- ["6kotobi17ValueWitnessTableV", "pointer"]
+- ["6kotobi17ValueWitnessTableV", "size"]
+- ["6kotobi17ValueWitnessTableV", "stride"]
+- !private ["s8_PointerP", "pointee"]
+- ["6kotobi18_ValueWitnessTableV", "Int"]
+- ["6kotobi18_ValueWitnessTableV", "align"]
+- ["6kotobi18_ValueWitnessTableV", "assignWithCopy"]
+- ["6kotobi18_ValueWitnessTableV", "deallocateBuffer"]
+- ["6kotobi18_ValueWitnessTableV", "destroy"]
+- ["6kotobi18_ValueWitnessTableV", "destroyBuffer"]
+- ["6kotobi18_ValueWitnessTableV", "init"]
+- ["6kotobi18_ValueWitnessTableV", "initializeBufferWithCopy"]
+- ["6kotobi18_ValueWitnessTableV", "initializeBufferWithCopyOfBuffer"]
+- ["6kotobi18_ValueWitnessTableV", "initializeBufferWithTake"]
+- ["6kotobi18_ValueWitnessTableV", "initializeWithCopy"]
+- ["6kotobi18_ValueWitnessTableV", "projectBuffer"]
+- ["6kotobi18_ValueWitnessTableV", "size"]
+- ["6kotobi18_ValueWitnessTableV", "stride"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s9EquatableP"
+- !private "s8HashableP"
+- "6kotobi11PointerTypeP"
+- !private "s10StrideableP"
+- !private "SP"
+- "6kotobi17ValueWitnessTableV"
+- !private "s8_PointerP"
+- "6kotobi18_ValueWitnessTableV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "71807bfa472fac963001bdb6ae02b8c9"

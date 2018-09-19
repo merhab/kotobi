@@ -1,0 +1,150 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "6kotobi8MetadataV6StructV"
+- "6kotobi9_MetadataV7_StructV"
+provides-member:
+- ["6kotobi8MetadataV", ""]
+- ["6kotobi8MetadataV6StructV", ""]
+- ["6kotobi9_MetadataV", ""]
+- ["6kotobi9_MetadataV7_StructV", ""]
+- ["6kotobi8MetadataV", "Struct"]
+- ["6kotobi9_MetadataV", "_Struct"]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Int"
+- "Metadata"
+- "NominalType"
+- "NominalTypeDescriptor"
+- "UnsafePointer"
+- "_Metadata"
+depends-member:
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s10ComparableP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- ["s28CustomDebugStringConvertibleP", "struct"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s17CustomReflectableP", "pointee"]
+- ["s17CustomReflectableP", "struct"]
+- ["s9DecodableP", "struct"]
+- ["s9EncodableP", "struct"]
+- ["s9EquatableP", "Pointee"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_Pointee"]
+- ["s9EquatableP", "kind"]
+- ["s9EquatableP", "nominalTypeDescriptor"]
+- !private ["s9EquatableP", "pointee"]
+- ["s9EquatableP", "pointer"]
+- ["s9EquatableP", "struct"]
+- ["s23ExpressibleByNilLiteralP", "struct"]
+- !private ["s8HashableP", "pointee"]
+- ["s8HashableP", "struct"]
+- ["6kotobi8MetadataV4KindO", "struct"]
+- ["6kotobi8MetadataV", "Kind"]
+- ["6kotobi8MetadataV", "NominalType"]
+- ["6kotobi8MetadataV", "NominalTypeDescriptor"]
+- ["6kotobi8MetadataV", "Struct"]
+- ["6kotobi8MetadataV", "UnsafePointer"]
+- ["6kotobi8MetadataV", "_Metadata"]
+- ["6kotobi12MetadataTypeP", "Pointee"]
+- ["6kotobi12MetadataTypeP", ""]
+- ["6kotobi12MetadataTypeP", "_Default_Pointee"]
+- ["6kotobi12MetadataTypeP", "kind"]
+- ["6kotobi12MetadataTypeP", "nominalTypeDescriptor"]
+- ["6kotobi12MetadataTypeP", "pointer"]
+- ["6kotobi11NominalTypeP", "Pointee"]
+- ["6kotobi11NominalTypeP", ""]
+- ["6kotobi11NominalTypeP", "_Default_Pointee"]
+- ["6kotobi11NominalTypeP", "kind"]
+- ["6kotobi11NominalTypeP", "nominalTypeDescriptor"]
+- ["6kotobi11NominalTypeP", "pointer"]
+- ["Sq", "struct"]
+- ["6kotobi11PointerTypeP", "Pointee"]
+- ["6kotobi11PointerTypeP", ""]
+- ["6kotobi11PointerTypeP", "_Default_Pointee"]
+- ["6kotobi11PointerTypeP", "kind"]
+- ["6kotobi11PointerTypeP", "nominalTypeDescriptor"]
+- ["6kotobi11PointerTypeP", "pointer"]
+- !private ["s10StrideableP", "pointee"]
+- ["6kotobi8MetadataV6StructV", "Kind"]
+- ["6kotobi8MetadataV6StructV", "NominalTypeDescriptor"]
+- ["6kotobi8MetadataV6StructV", "Pointee"]
+- ["6kotobi8MetadataV6StructV", "UnsafePointer"]
+- ["6kotobi8MetadataV6StructV", "_Default_Pointee"]
+- ["6kotobi8MetadataV6StructV", "_Metadata"]
+- ["6kotobi8MetadataV6StructV", "deinit"]
+- ["6kotobi8MetadataV6StructV", "init"]
+- ["6kotobi8MetadataV6StructV", "kind"]
+- ["6kotobi8MetadataV6StructV", "nominalTypeDescriptor"]
+- ["6kotobi8MetadataV6StructV", "pointer"]
+- !private ["SP", "pointee"]
+- ["6kotobi9_MetadataV", "Int"]
+- ["6kotobi9_MetadataV", "Metadata"]
+- ["6kotobi9_MetadataV", "NominalTypeDescriptor"]
+- ["6kotobi9_MetadataV", "_Struct"]
+- ["s21_ObjectiveCBridgeableP", "struct"]
+- ["6kotobi13_OptionalTypeP", "struct"]
+- !private ["s8_PointerP", "pointee"]
+- ["6kotobi9_MetadataV7_StructV", "Int"]
+- ["6kotobi9_MetadataV7_StructV", "Metadata"]
+- ["6kotobi9_MetadataV7_StructV", "NominalTypeDescriptor"]
+- ["6kotobi9_MetadataV7_StructV", "init"]
+- ["6kotobi9_MetadataV7_StructV", "kind"]
+- ["6kotobi9_MetadataV7_StructV", "nominalTypeDescriptor"]
+- ["6kotobi9_MetadataV7_StructV", "parent"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s23ExpressibleByNilLiteralP"
+- "s8HashableP"
+- "6kotobi8MetadataV4KindO"
+- "6kotobi8MetadataV"
+- "6kotobi12MetadataTypeP"
+- "6kotobi11NominalTypeP"
+- "Sq"
+- "6kotobi11PointerTypeP"
+- !private "s10StrideableP"
+- "6kotobi8MetadataV6StructV"
+- !private "SP"
+- "6kotobi9_MetadataV"
+- "s21_ObjectiveCBridgeableP"
+- "6kotobi13_OptionalTypeP"
+- !private "s8_PointerP"
+- "6kotobi9_MetadataV7_StructV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "cfd4f18c420840df8c55510eac85e1fa"

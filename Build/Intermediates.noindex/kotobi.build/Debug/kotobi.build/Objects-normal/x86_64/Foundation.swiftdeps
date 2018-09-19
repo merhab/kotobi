@@ -1,0 +1,509 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "dateFormatter"
+provides-nominal:
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+provides-member:
+- ["10Foundation4DataV", ""]
+- ["10Foundation4DateV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Blob"
+- "Data"
+- "Date"
+- "DateFormatter"
+- "Locale"
+- "String"
+- "StringLiteralType"
+- "TimeZone"
+- !private "UInt8"
+- !private "UnsafePointer"
+- "Value"
+- "dateFormatter"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "Blob"]
+- !private ["s23BidirectionalCollectionP", "Data"]
+- ["s23BidirectionalCollectionP", "Datatype"]
+- ["s23BidirectionalCollectionP", "ValueType"]
+- ["s23BidirectionalCollectionP", "_Default_ValueType"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- ["s23BidirectionalCollectionP", "datatypeValue"]
+- ["s23BidirectionalCollectionP", "declaredDatatype"]
+- ["s23BidirectionalCollectionP", "expression"]
+- ["s23BidirectionalCollectionP", "fromDatatypeValue"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "withUnsafeBytes"]
+- !private ["6kotobi7BindingP", "bytes"]
+- !private ["6kotobi7BindingP", "declaredDatatype"]
+- ["6kotobi7BindingP", "init"]
+- !private ["6kotobi4BlobV", "bytes"]
+- !private ["6kotobi4BlobV", "declaredDatatype"]
+- ["6kotobi4BlobV", "deinit"]
+- !private ["6kotobi4BlobV", "init"]
+- !private ["s7CVarArgP", "date"]
+- ["s7CVarArgP", "dateFormat"]
+- !private ["s7CVarArgP", "declaredDatatype"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "locale"]
+- !private ["s7CVarArgP", "string"]
+- ["s7CVarArgP", "timeZone"]
+- !private ["s10CollectionP", "Blob"]
+- !private ["s10CollectionP", "Data"]
+- ["s10CollectionP", "Datatype"]
+- ["s10CollectionP", "ValueType"]
+- ["s10CollectionP", "_Default_ValueType"]
+- !private ["s10CollectionP", "count"]
+- ["s10CollectionP", "datatypeValue"]
+- ["s10CollectionP", "declaredDatatype"]
+- ["s10CollectionP", "expression"]
+- ["s10CollectionP", "fromDatatypeValue"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "withUnsafeBytes"]
+- ["s10ComparableP", "Datatype"]
+- !private ["s10ComparableP", "String"]
+- ["s10ComparableP", "ValueType"]
+- ["s10ComparableP", "_Default_Datatype"]
+- ["s10ComparableP", "_Default_ValueType"]
+- ["s10ComparableP", "datatypeValue"]
+- !private ["s10ComparableP", "dateFormatter"]
+- ["s10ComparableP", "declaredDatatype"]
+- ["s10ComparableP", "expression"]
+- ["s10ComparableP", "fromDatatypeValue"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Blob"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- ["s28CustomDebugStringConvertibleP", "Datatype"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "ValueType"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Datatype"]
+- ["s28CustomDebugStringConvertibleP", "_Default_ValueType"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "datatypeValue"]
+- !private ["s28CustomDebugStringConvertibleP", "date"]
+- ["s28CustomDebugStringConvertibleP", "dateFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "dateFormatter"]
+- ["s28CustomDebugStringConvertibleP", "declaredDatatype"]
+- ["s28CustomDebugStringConvertibleP", "expression"]
+- ["s28CustomDebugStringConvertibleP", "fromDatatypeValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "locale"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- ["s28CustomDebugStringConvertibleP", "timeZone"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- ["s29CustomPlaygroundQuickLookableP", "Datatype"]
+- !private ["s29CustomPlaygroundQuickLookableP", "String"]
+- ["s29CustomPlaygroundQuickLookableP", "ValueType"]
+- ["s29CustomPlaygroundQuickLookableP", "_Default_Datatype"]
+- ["s29CustomPlaygroundQuickLookableP", "_Default_ValueType"]
+- ["s29CustomPlaygroundQuickLookableP", "datatypeValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "dateFormatter"]
+- ["s29CustomPlaygroundQuickLookableP", "declaredDatatype"]
+- ["s29CustomPlaygroundQuickLookableP", "expression"]
+- ["s29CustomPlaygroundQuickLookableP", "fromDatatypeValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Blob"]
+- !private ["s17CustomReflectableP", "Data"]
+- ["s17CustomReflectableP", "Datatype"]
+- !private ["s17CustomReflectableP", "String"]
+- ["s17CustomReflectableP", "ValueType"]
+- ["s17CustomReflectableP", "_Default_Datatype"]
+- ["s17CustomReflectableP", "_Default_ValueType"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "datatypeValue"]
+- !private ["s17CustomReflectableP", "dateFormatter"]
+- ["s17CustomReflectableP", "declaredDatatype"]
+- ["s17CustomReflectableP", "expression"]
+- ["s17CustomReflectableP", "fromDatatypeValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "Blob"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- ["s23CustomStringConvertibleP", "Datatype"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "ValueType"]
+- ["s23CustomStringConvertibleP", "_Default_Datatype"]
+- ["s23CustomStringConvertibleP", "_Default_ValueType"]
+- !private ["s23CustomStringConvertibleP", "bytes"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "datatypeValue"]
+- !private ["s23CustomStringConvertibleP", "date"]
+- ["s23CustomStringConvertibleP", "dateFormat"]
+- !private ["s23CustomStringConvertibleP", "dateFormatter"]
+- ["s23CustomStringConvertibleP", "declaredDatatype"]
+- ["s23CustomStringConvertibleP", "expression"]
+- ["s23CustomStringConvertibleP", "fromDatatypeValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "locale"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- ["s23CustomStringConvertibleP", "timeZone"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- ["10Foundation4DataV", "Blob"]
+- ["10Foundation4DataV", "Data"]
+- ["10Foundation4DataV", "Datatype"]
+- ["10Foundation4DataV", "String"]
+- !private ["10Foundation4DataV", "UInt8"]
+- !private ["10Foundation4DataV", "UnsafePointer"]
+- ["10Foundation4DataV", "ValueType"]
+- ["10Foundation4DataV", "_Default_ValueType"]
+- !private ["10Foundation4DataV", "count"]
+- ["10Foundation4DataV", "datatypeValue"]
+- ["10Foundation4DataV", "declaredDatatype"]
+- ["10Foundation4DataV", "deinit"]
+- ["10Foundation4DataV", "expression"]
+- ["10Foundation4DataV", "fromDatatypeValue"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "withUnsafeBytes"]
+- ["10Foundation4DateV", "Datatype"]
+- ["10Foundation4DateV", "Date"]
+- ["10Foundation4DateV", "String"]
+- ["10Foundation4DateV", "ValueType"]
+- ["10Foundation4DateV", "_Default_Datatype"]
+- ["10Foundation4DateV", "_Default_ValueType"]
+- ["10Foundation4DateV", "datatypeValue"]
+- !private ["10Foundation4DateV", "dateFormatter"]
+- ["10Foundation4DateV", "declaredDatatype"]
+- ["10Foundation4DateV", "deinit"]
+- ["10Foundation4DateV", "expression"]
+- ["10Foundation4DateV", "fromDatatypeValue"]
+- !private ["So13DateFormatterC", "date"]
+- ["So13DateFormatterC", "dateFormat"]
+- ["So13DateFormatterC", "init"]
+- ["So13DateFormatterC", "locale"]
+- !private ["So13DateFormatterC", "string"]
+- ["So13DateFormatterC", "timeZone"]
+- !private ["s9DecodableP", "Blob"]
+- !private ["s9DecodableP", "Data"]
+- ["s9DecodableP", "Datatype"]
+- !private ["s9DecodableP", "String"]
+- ["s9DecodableP", "ValueType"]
+- ["s9DecodableP", "_Default_Datatype"]
+- ["s9DecodableP", "_Default_ValueType"]
+- !private ["s9DecodableP", "count"]
+- ["s9DecodableP", "datatypeValue"]
+- !private ["s9DecodableP", "dateFormatter"]
+- ["s9DecodableP", "declaredDatatype"]
+- ["s9DecodableP", "expression"]
+- ["s9DecodableP", "fromDatatypeValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "withUnsafeBytes"]
+- !private ["s9EncodableP", "Blob"]
+- !private ["s9EncodableP", "Data"]
+- ["s9EncodableP", "Datatype"]
+- !private ["s9EncodableP", "String"]
+- ["s9EncodableP", "ValueType"]
+- ["s9EncodableP", "_Default_Datatype"]
+- ["s9EncodableP", "_Default_ValueType"]
+- !private ["s9EncodableP", "count"]
+- ["s9EncodableP", "datatypeValue"]
+- !private ["s9EncodableP", "dateFormatter"]
+- ["s9EncodableP", "declaredDatatype"]
+- ["s9EncodableP", "expression"]
+- ["s9EncodableP", "fromDatatypeValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "withUnsafeBytes"]
+- !private ["s9EquatableP", "Blob"]
+- !private ["s9EquatableP", "Data"]
+- ["s9EquatableP", "Datatype"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", "ValueType"]
+- ["s9EquatableP", "_Default_Datatype"]
+- ["s9EquatableP", "_Default_ValueType"]
+- !private ["s9EquatableP", "bytes"]
+- !private ["s9EquatableP", "count"]
+- ["s9EquatableP", "datatypeValue"]
+- !private ["s9EquatableP", "date"]
+- ["s9EquatableP", "dateFormat"]
+- !private ["s9EquatableP", "dateFormatter"]
+- ["s9EquatableP", "declaredDatatype"]
+- ["s9EquatableP", "expression"]
+- ["s9EquatableP", "fromDatatypeValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "locale"]
+- !private ["s9EquatableP", "string"]
+- ["s9EquatableP", "timeZone"]
+- !private ["s9EquatableP", "withUnsafeBytes"]
+- !private ["6kotobi11ExpressibleP", "Blob"]
+- !private ["6kotobi11ExpressibleP", "Data"]
+- ["6kotobi11ExpressibleP", "Datatype"]
+- !private ["6kotobi11ExpressibleP", "String"]
+- ["6kotobi11ExpressibleP", "ValueType"]
+- ["6kotobi11ExpressibleP", ""]
+- ["6kotobi11ExpressibleP", "_Default_Datatype"]
+- ["6kotobi11ExpressibleP", "_Default_ValueType"]
+- !private ["6kotobi11ExpressibleP", "bytes"]
+- !private ["6kotobi11ExpressibleP", "count"]
+- ["6kotobi11ExpressibleP", "datatypeValue"]
+- !private ["6kotobi11ExpressibleP", "dateFormatter"]
+- ["6kotobi11ExpressibleP", "declaredDatatype"]
+- ["6kotobi11ExpressibleP", "expression"]
+- ["6kotobi11ExpressibleP", "fromDatatypeValue"]
+- ["6kotobi11ExpressibleP", "init"]
+- !private ["6kotobi11ExpressibleP", "withUnsafeBytes"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "declaredDatatype"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "declaredDatatype"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "declaredDatatype"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["So9FormatterC", "date"]
+- ["So9FormatterC", "dateFormat"]
+- ["So9FormatterC", "init"]
+- ["So9FormatterC", "locale"]
+- !private ["So9FormatterC", "string"]
+- ["So9FormatterC", "timeZone"]
+- !private ["s8HashableP", "Blob"]
+- !private ["s8HashableP", "Data"]
+- ["s8HashableP", "Datatype"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", "ValueType"]
+- ["s8HashableP", "_Default_Datatype"]
+- ["s8HashableP", "_Default_ValueType"]
+- !private ["s8HashableP", "count"]
+- ["s8HashableP", "datatypeValue"]
+- !private ["s8HashableP", "date"]
+- ["s8HashableP", "dateFormat"]
+- !private ["s8HashableP", "dateFormatter"]
+- ["s8HashableP", "declaredDatatype"]
+- ["s8HashableP", "expression"]
+- ["s8HashableP", "fromDatatypeValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "locale"]
+- !private ["s8HashableP", "string"]
+- ["s8HashableP", "timeZone"]
+- !private ["s8HashableP", "withUnsafeBytes"]
+- ["10Foundation6LocaleV", "init"]
+- !private ["s25LosslessStringConvertibleP", "declaredDatatype"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "declaredDatatype"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "Blob"]
+- !private ["s17MutableCollectionP", "Data"]
+- ["s17MutableCollectionP", "Datatype"]
+- ["s17MutableCollectionP", "ValueType"]
+- ["s17MutableCollectionP", "_Default_ValueType"]
+- !private ["s17MutableCollectionP", "count"]
+- ["s17MutableCollectionP", "datatypeValue"]
+- ["s17MutableCollectionP", "declaredDatatype"]
+- ["s17MutableCollectionP", "expression"]
+- ["s17MutableCollectionP", "fromDatatypeValue"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "withUnsafeBytes"]
+- !private ["So8NSCodingP", "date"]
+- ["So8NSCodingP", "dateFormat"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "locale"]
+- !private ["So8NSCodingP", "string"]
+- ["So8NSCodingP", "timeZone"]
+- !private ["So9NSCopyingP", "date"]
+- ["So9NSCopyingP", "dateFormat"]
+- ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "locale"]
+- !private ["So9NSCopyingP", "string"]
+- ["So9NSCopyingP", "timeZone"]
+- !private ["So8NSObjectC", "date"]
+- ["So8NSObjectC", "dateFormat"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "locale"]
+- !private ["So8NSObjectC", "string"]
+- ["So8NSObjectC", "timeZone"]
+- !private ["So16NSObjectProtocolP", "date"]
+- ["So16NSObjectProtocolP", "dateFormat"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "locale"]
+- !private ["So16NSObjectProtocolP", "string"]
+- ["So16NSObjectProtocolP", "timeZone"]
+- !private ["s22RandomAccessCollectionP", "Blob"]
+- !private ["s22RandomAccessCollectionP", "Data"]
+- ["s22RandomAccessCollectionP", "Datatype"]
+- ["s22RandomAccessCollectionP", "ValueType"]
+- ["s22RandomAccessCollectionP", "_Default_ValueType"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- ["s22RandomAccessCollectionP", "datatypeValue"]
+- ["s22RandomAccessCollectionP", "declaredDatatype"]
+- ["s22RandomAccessCollectionP", "expression"]
+- ["s22RandomAccessCollectionP", "fromDatatypeValue"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "withUnsafeBytes"]
+- !private ["s26RangeReplaceableCollectionP", "Blob"]
+- !private ["s26RangeReplaceableCollectionP", "Data"]
+- ["s26RangeReplaceableCollectionP", "Datatype"]
+- ["s26RangeReplaceableCollectionP", "ValueType"]
+- ["s26RangeReplaceableCollectionP", "_Default_ValueType"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- ["s26RangeReplaceableCollectionP", "datatypeValue"]
+- ["s26RangeReplaceableCollectionP", "declaredDatatype"]
+- ["s26RangeReplaceableCollectionP", "expression"]
+- ["s26RangeReplaceableCollectionP", "fromDatatypeValue"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "withUnsafeBytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "Blob"]
+- !private ["10Foundation20ReferenceConvertibleP", "Data"]
+- ["10Foundation20ReferenceConvertibleP", "Datatype"]
+- !private ["10Foundation20ReferenceConvertibleP", "String"]
+- ["10Foundation20ReferenceConvertibleP", "ValueType"]
+- ["10Foundation20ReferenceConvertibleP", "_Default_Datatype"]
+- ["10Foundation20ReferenceConvertibleP", "_Default_ValueType"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- ["10Foundation20ReferenceConvertibleP", "datatypeValue"]
+- !private ["10Foundation20ReferenceConvertibleP", "dateFormatter"]
+- ["10Foundation20ReferenceConvertibleP", "declaredDatatype"]
+- ["10Foundation20ReferenceConvertibleP", "expression"]
+- ["10Foundation20ReferenceConvertibleP", "fromDatatypeValue"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeBytes"]
+- !private ["s8SequenceP", "Blob"]
+- !private ["s8SequenceP", "Data"]
+- ["s8SequenceP", "Datatype"]
+- ["s8SequenceP", "ValueType"]
+- ["s8SequenceP", "_Default_ValueType"]
+- !private ["s8SequenceP", "count"]
+- ["s8SequenceP", "datatypeValue"]
+- ["s8SequenceP", "declaredDatatype"]
+- ["s8SequenceP", "expression"]
+- ["s8SequenceP", "fromDatatypeValue"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "withUnsafeBytes"]
+- !private ["SS", "declaredDatatype"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- !private ["s14StringProtocolP", "declaredDatatype"]
+- ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "declaredDatatype"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "declaredDatatype"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10Foundation8TimeZoneV", "init"]
+- !private ["6kotobi17UTF8InitializableP", "declaredDatatype"]
+- ["6kotobi17UTF8InitializableP", "init"]
+- !private ["6kotobi5ValueP", "Blob"]
+- !private ["6kotobi5ValueP", "Data"]
+- ["6kotobi5ValueP", "Datatype"]
+- !private ["6kotobi5ValueP", "String"]
+- ["6kotobi5ValueP", "ValueType"]
+- ["6kotobi5ValueP", ""]
+- ["6kotobi5ValueP", "_Default_Datatype"]
+- ["6kotobi5ValueP", "_Default_ValueType"]
+- !private ["6kotobi5ValueP", "bytes"]
+- !private ["6kotobi5ValueP", "count"]
+- ["6kotobi5ValueP", "datatypeValue"]
+- !private ["6kotobi5ValueP", "dateFormatter"]
+- ["6kotobi5ValueP", "declaredDatatype"]
+- ["6kotobi5ValueP", "expression"]
+- ["6kotobi5ValueP", "fromDatatypeValue"]
+- ["6kotobi5ValueP", "init"]
+- !private ["6kotobi5ValueP", "withUnsafeBytes"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "declaredDatatype"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "declaredDatatype"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "declaredDatatype"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "declaredDatatype"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "declaredDatatype"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "date"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "dateFormat"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locale"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timeZone"]
+- !private ["s21_ObjectiveCBridgeableP", "Blob"]
+- !private ["s21_ObjectiveCBridgeableP", "Data"]
+- ["s21_ObjectiveCBridgeableP", "Datatype"]
+- !private ["s21_ObjectiveCBridgeableP", "String"]
+- ["s21_ObjectiveCBridgeableP", "ValueType"]
+- ["s21_ObjectiveCBridgeableP", "_Default_Datatype"]
+- ["s21_ObjectiveCBridgeableP", "_Default_ValueType"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "datatypeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "dateFormatter"]
+- ["s21_ObjectiveCBridgeableP", "declaredDatatype"]
+- ["s21_ObjectiveCBridgeableP", "expression"]
+- ["s21_ObjectiveCBridgeableP", "fromDatatypeValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s16_SwiftStringViewP", "declaredDatatype"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- "6kotobi7BindingP"
+- "6kotobi4BlobV"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation4DateV"
+- "So13DateFormatterC"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "6kotobi11ExpressibleP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So9FormatterC"
+- "s8HashableP"
+- "10Foundation6LocaleV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation8TimeZoneV"
+- "6kotobi17UTF8InitializableP"
+- "6kotobi5ValueP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "a3219dcf66054d2ff496e6cfce5c9c2d"

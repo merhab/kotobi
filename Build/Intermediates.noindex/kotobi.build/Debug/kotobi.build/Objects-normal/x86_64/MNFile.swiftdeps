@@ -1,0 +1,539 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MNFile"
+provides-nominal:
+- "6kotobi6MNFileC"
+provides-member:
+- ["6kotobi6MNFileC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "+"
+- !private "Array"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "FileManager"
+- "Int"
+- "MNFile"
+- !private "NSError"
+- !private "NSSearchPathForDirectoriesInDomains"
+- !private "NSString"
+- "String"
+- "StringLiteralType"
+- "URL"
+- !private "URLResourceKey"
+- !private "UnicodeScalarType"
+- !private "print"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "hasSuffix"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["6kotobi7BindingP", "_getBuiltinLogicValue"]
+- !private ["6kotobi7BindingP", "hasSuffix"]
+- ["6kotobi7BindingP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So6BundleC", "bundleURL"]
+- !private ["So6BundleC", "main"]
+- !private ["s7CVarArgP", "DirectoryEnumerationOptions"]
+- !private ["s7CVarArgP", "SearchPathDirectory"]
+- !private ["s7CVarArgP", "SearchPathDomainMask"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "bundleURL"]
+- !private ["s7CVarArgP", "copyItem"]
+- !private ["s7CVarArgP", "createDirectory"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "enumerator"]
+- !private ["s7CVarArgP", "fileExists"]
+- !private ["s7CVarArgP", "hasSuffix"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isDeletableFile"]
+- !private ["s7CVarArgP", "lastPathComponent"]
+- !private ["s7CVarArgP", "localizedDescription"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "moveItem"]
+- !private ["s7CVarArgP", "nextObject"]
+- !private ["s7CVarArgP", "removeItem"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "hasSuffix"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "hasSuffix"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DirectoryEnumerationOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "SearchPathDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "SearchPathDomainMask"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "bundleURL"]
+- !private ["s28CustomDebugStringConvertibleP", "copyItem"]
+- !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "deletingLastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerator"]
+- !private ["s28CustomDebugStringConvertibleP", "fileExists"]
+- !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isDeletableFile"]
+- !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "moveItem"]
+- !private ["s28CustomDebugStringConvertibleP", "nextObject"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "removeItem"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deletingLastPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "hasSuffix"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "hasSuffix"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "DirectoryEnumerationOptions"]
+- !private ["s23CustomStringConvertibleP", "SearchPathDirectory"]
+- !private ["s23CustomStringConvertibleP", "SearchPathDomainMask"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bundleURL"]
+- !private ["s23CustomStringConvertibleP", "copyItem"]
+- !private ["s23CustomStringConvertibleP", "createDirectory"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "deletingLastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "enumerator"]
+- !private ["s23CustomStringConvertibleP", "fileExists"]
+- !private ["s23CustomStringConvertibleP", "hasSuffix"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isDeletableFile"]
+- !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "localizedDescription"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "moveItem"]
+- !private ["s23CustomStringConvertibleP", "nextObject"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "removeItem"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "deletingLastPathComponent"]
+- !private ["s9DecodableP", "hasSuffix"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "path"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["So11FileManagerC27DirectoryEnumerationOptionsV", "skipsHiddenFiles"]
+- !private ["So11FileManagerC27DirectoryEnumerationOptionsV", "skipsPackageDescendants"]
+- !private ["So11FileManagerC27DirectoryEnumerationOptionsV", "skipsSubdirectoryDescendants"]
+- !private ["So19DirectoryEnumeratorC", "nextObject"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "deletingLastPathComponent"]
+- !private ["s9EncodableP", "hasSuffix"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "path"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "DirectoryEnumerationOptions"]
+- !private ["s9EquatableP", "SearchPathDirectory"]
+- !private ["s9EquatableP", "SearchPathDomainMask"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "bundleURL"]
+- !private ["s9EquatableP", "copyItem"]
+- !private ["s9EquatableP", "createDirectory"]
+- !private ["s9EquatableP", "default"]
+- !private ["s9EquatableP", "deletingLastPathComponent"]
+- !private ["s9EquatableP", "documentDirectory"]
+- !private ["s9EquatableP", "enumerator"]
+- !private ["s9EquatableP", "fileExists"]
+- !private ["s9EquatableP", "hasSuffix"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isDeletableFile"]
+- !private ["s9EquatableP", "isDirectoryKey"]
+- !private ["s9EquatableP", "lastPathComponent"]
+- !private ["s9EquatableP", "localizedDescription"]
+- !private ["s9EquatableP", "localizedNameKey"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "moveItem"]
+- !private ["s9EquatableP", "nextObject"]
+- !private ["s9EquatableP", "path"]
+- !private ["s9EquatableP", "removeItem"]
+- !private ["s9EquatableP", "skipsHiddenFiles"]
+- !private ["s9EquatableP", "skipsPackageDescendants"]
+- !private ["s9EquatableP", "skipsSubdirectoryDescendants"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "userDomainMask"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["6kotobi11ExpressibleP", "_getBuiltinLogicValue"]
+- !private ["6kotobi11ExpressibleP", "hasSuffix"]
+- ["6kotobi11ExpressibleP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "skipsHiddenFiles"]
+- !private ["s25ExpressibleByArrayLiteralP", "skipsPackageDescendants"]
+- !private ["s25ExpressibleByArrayLiteralP", "skipsSubdirectoryDescendants"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lastPathComponent"]
+- !private ["s26ExpressibleByStringLiteralP", "hasSuffix"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "lastPathComponent"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasSuffix"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lastPathComponent"]
+- !private ["So11FileManagerC", "DirectoryEnumerationOptions"]
+- !private ["So11FileManagerC", "SearchPathDirectory"]
+- !private ["So11FileManagerC", "SearchPathDomainMask"]
+- !private ["So11FileManagerC", "copyItem"]
+- !private ["So11FileManagerC", "createDirectory"]
+- !private ["So11FileManagerC", "default"]
+- !private ["So11FileManagerC", "enumerator"]
+- !private ["So11FileManagerC", "fileExists"]
+- !private ["So11FileManagerC", "isDeletableFile"]
+- !private ["So11FileManagerC", "moveItem"]
+- !private ["So11FileManagerC", "removeItem"]
+- !private ["s8HashableP", "DirectoryEnumerationOptions"]
+- !private ["s8HashableP", "SearchPathDirectory"]
+- !private ["s8HashableP", "SearchPathDomainMask"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "bundleURL"]
+- !private ["s8HashableP", "copyItem"]
+- !private ["s8HashableP", "createDirectory"]
+- !private ["s8HashableP", "default"]
+- !private ["s8HashableP", "deletingLastPathComponent"]
+- !private ["s8HashableP", "documentDirectory"]
+- !private ["s8HashableP", "enumerator"]
+- !private ["s8HashableP", "fileExists"]
+- !private ["s8HashableP", "hasSuffix"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "isDeletableFile"]
+- !private ["s8HashableP", "isDirectoryKey"]
+- !private ["s8HashableP", "lastPathComponent"]
+- !private ["s8HashableP", "localizedDescription"]
+- !private ["s8HashableP", "localizedNameKey"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "moveItem"]
+- !private ["s8HashableP", "nextObject"]
+- !private ["s8HashableP", "path"]
+- !private ["s8HashableP", "removeItem"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "hasSuffix"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["6kotobi6MNFileC", "Bool"]
+- !private ["6kotobi6MNFileC", "Bundle"]
+- !private ["6kotobi6MNFileC", "FileManager"]
+- ["6kotobi6MNFileC", "Int"]
+- !private ["6kotobi6MNFileC", "MNFile"]
+- !private ["6kotobi6MNFileC", "NSError"]
+- !private ["6kotobi6MNFileC", "NSSearchPathForDirectoriesInDomains"]
+- !private ["6kotobi6MNFileC", "NSString"]
+- ["6kotobi6MNFileC", "String"]
+- ["6kotobi6MNFileC", "URL"]
+- !private ["6kotobi6MNFileC", "URLResourceKey"]
+- ["6kotobi6MNFileC", "booksFolderName"]
+- ["6kotobi6MNFileC", "createDbFolder"]
+- ["6kotobi6MNFileC", "createFolder"]
+- ["6kotobi6MNFileC", "dbSuffix"]
+- ["6kotobi6MNFileC", "deinit"]
+- ["6kotobi6MNFileC", "deleteFile"]
+- ["6kotobi6MNFileC", "fihrasFolderName"]
+- ["6kotobi6MNFileC", "fihresSuffix"]
+- ["6kotobi6MNFileC", "fileExists"]
+- ["6kotobi6MNFileC", "getAppPath"]
+- ["6kotobi6MNFileC", "getDataBasePath"]
+- ["6kotobi6MNFileC", "getDocFolder"]
+- ["6kotobi6MNFileC", "init"]
+- ["6kotobi6MNFileC", "moveFileFromDocToBookFolder"]
+- ["6kotobi6MNFileC", "moveFileToBookFolder"]
+- !private ["6kotobi6MNFileC", "print"]
+- ["6kotobi6MNFileC", "searchDb"]
+- ["6kotobi6MNFileC", "searchDbFilesInDoc"]
+- ["6kotobi6MNFileC", "searchDbFilesInInbox"]
+- ["6kotobi6MNFileC", "searchDbFilesInRes"]
+- ["6kotobi6MNFileC", "searchINDFilesInDoc"]
+- ["6kotobi6MNFileC", "searchIndFilesInInbox"]
+- ["6kotobi6MNFileC", "searchIndFilesInRes"]
+- !private ["s10MirrorPathP", "hasSuffix"]
+- ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "hasSuffix"]
+- !private ["So8NSCodingP", "lastPathComponent"]
+- !private ["So8NSCodingP", "localizedDescription"]
+- !private ["So9NSCopyingP", "hasSuffix"]
+- !private ["So9NSCopyingP", "lastPathComponent"]
+- !private ["So9NSCopyingP", "localizedDescription"]
+- !private ["So12NSEnumeratorC", "nextObject"]
+- !private ["So7NSErrorC", "localizedDescription"]
+- !private ["So17NSFastEnumerationP", "nextObject"]
+- !private ["So21NSItemProviderReadingP", "hasSuffix"]
+- !private ["So21NSItemProviderReadingP", "lastPathComponent"]
+- !private ["So21NSItemProviderWritingP", "hasSuffix"]
+- !private ["So21NSItemProviderWritingP", "lastPathComponent"]
+- !private ["So16NSMutableCopyingP", "hasSuffix"]
+- !private ["So16NSMutableCopyingP", "lastPathComponent"]
+- !private ["So8NSObjectC", "DirectoryEnumerationOptions"]
+- !private ["So8NSObjectC", "SearchPathDirectory"]
+- !private ["So8NSObjectC", "SearchPathDomainMask"]
+- !private ["So8NSObjectC", "bundleURL"]
+- !private ["So8NSObjectC", "copyItem"]
+- !private ["So8NSObjectC", "createDirectory"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "enumerator"]
+- !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "hasSuffix"]
+- !private ["So8NSObjectC", "isDeletableFile"]
+- !private ["So8NSObjectC", "lastPathComponent"]
+- !private ["So8NSObjectC", "localizedDescription"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "moveItem"]
+- !private ["So8NSObjectC", "nextObject"]
+- !private ["So8NSObjectC", "removeItem"]
+- !private ["So16NSObjectProtocolP", "DirectoryEnumerationOptions"]
+- !private ["So16NSObjectProtocolP", "SearchPathDirectory"]
+- !private ["So16NSObjectProtocolP", "SearchPathDomainMask"]
+- !private ["So16NSObjectProtocolP", "bundleURL"]
+- !private ["So16NSObjectProtocolP", "copyItem"]
+- !private ["So16NSObjectProtocolP", "createDirectory"]
+- !private ["So16NSObjectProtocolP", "default"]
+- !private ["So16NSObjectProtocolP", "enumerator"]
+- !private ["So16NSObjectProtocolP", "fileExists"]
+- !private ["So16NSObjectProtocolP", "hasSuffix"]
+- !private ["So16NSObjectProtocolP", "isDeletableFile"]
+- !private ["So16NSObjectProtocolP", "lastPathComponent"]
+- !private ["So16NSObjectProtocolP", "localizedDescription"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "moveItem"]
+- !private ["So16NSObjectProtocolP", "nextObject"]
+- !private ["So16NSObjectProtocolP", "removeItem"]
+- !private ["So19NSPasteboardReadingP", "hasSuffix"]
+- !private ["So19NSPasteboardReadingP", "lastPathComponent"]
+- !private ["So19NSPasteboardWritingP", "hasSuffix"]
+- !private ["So19NSPasteboardWritingP", "lastPathComponent"]
+- !private ["So14NSSecureCodingP", "hasSuffix"]
+- !private ["So14NSSecureCodingP", "lastPathComponent"]
+- !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["So8NSStringC", "hasSuffix"]
+- !private ["So8NSStringC", "lastPathComponent"]
+- !private ["s9OptionSetP", "skipsHiddenFiles"]
+- !private ["s9OptionSetP", "skipsPackageDescendants"]
+- !private ["s9OptionSetP", "skipsSubdirectoryDescendants"]
+- !private ["s9OptionSetP", "userDomainMask"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "hasSuffix"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "documentDirectory"]
+- !private ["s16RawRepresentableP", "isDirectoryKey"]
+- !private ["s16RawRepresentableP", "localizedNameKey"]
+- !private ["s16RawRepresentableP", "skipsHiddenFiles"]
+- !private ["s16RawRepresentableP", "skipsPackageDescendants"]
+- !private ["s16RawRepresentableP", "skipsSubdirectoryDescendants"]
+- !private ["s16RawRepresentableP", "userDomainMask"]
+- !private ["10Foundation20ReferenceConvertibleP", "deletingLastPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["So11FileManagerC19SearchPathDirectoryO", "documentDirectory"]
+- !private ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "hasSuffix"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "nextObject"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "skipsHiddenFiles"]
+- !private ["s10SetAlgebraP", "skipsPackageDescendants"]
+- !private ["s10SetAlgebraP", "skipsSubdirectoryDescendants"]
+- !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["SS", "deinit"]
+- !private ["SS", "hasSuffix"]
+- ["SS", "init"]
+- !private ["s14StringProtocolP", "hasSuffix"]
+- ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "hasSuffix"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "hasSuffix"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation3URLV", "deletingLastPathComponent"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["SC14URLResourceKeyV", "isDirectoryKey"]
+- !private ["SC14URLResourceKeyV", "localizedNameKey"]
+- !private ["6kotobi17UTF8InitializableP", "hasSuffix"]
+- ["6kotobi17UTF8InitializableP", "init"]
+- !private ["6kotobi5ValueP", "_getBuiltinLogicValue"]
+- !private ["6kotobi5ValueP", "hasSuffix"]
+- ["6kotobi5ValueP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasSuffix"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasSuffix"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hasSuffix"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasSuffix"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "deletingLastPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s33_ExpressibleByStringInterpolationP", "hasSuffix"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasSuffix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "lastPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DirectoryEnumerationOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchPathDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SearchPathDomainMask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundleURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "copyItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createDirectory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "enumerator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasSuffix"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isDeletableFile"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastPathComponent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "moveItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nextObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "deletingLastPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "hasSuffix"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isDirectoryKey"]
+- !private ["s21_ObjectiveCBridgeableP", "localizedNameKey"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s20_SwiftNewtypeWrapperP", "isDirectoryKey"]
+- !private ["s20_SwiftNewtypeWrapperP", "localizedNameKey"]
+- !private ["s16_SwiftStringViewP", "hasSuffix"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- "6kotobi7BindingP"
+- !private "Sb"
+- !private "So6BundleC"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "So11FileManagerC27DirectoryEnumerationOptionsV"
+- !private "So19DirectoryEnumeratorC"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s5ErrorP"
+- "6kotobi11ExpressibleP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So11FileManagerC"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "6kotobi6MNFileC"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So12NSEnumeratorC"
+- !private "So7NSErrorC"
+- !private "So17NSFastEnumerationP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So11FileManagerC19SearchPathDirectoryO"
+- !private "So11FileManagerC20SearchPathDomainMaskV"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "SC14URLResourceKeyV"
+- "6kotobi17UTF8InitializableP"
+- "6kotobi5ValueP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "eba368d1940ba10b69cfda484b67beca"
