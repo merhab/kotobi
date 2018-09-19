@@ -39,7 +39,7 @@
 		490CAE0B21516C4600CE3989 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0A21516C4600CE3989 /* Extentions.swift */; };
 		490CAE1521516C5700CE3989 /* StemConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0D21516C5700CE3989 /* StemConst.swift */; };
 		490CAE1621516C5700CE3989 /* MNFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0E21516C5700CE3989 /* MNFile.swift */; };
-		490CAE1721516C5700CE3989 /* FahresKalimat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0F21516C5700CE3989 /* FahresKalimat.swift */; };
+		490CAE1721516C5700CE3989 /* DBFahresKalimat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0F21516C5700CE3989 /* DBFahresKalimat.swift */; };
 		490CAE1821516C5700CE3989 /* MNRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1021516C5700CE3989 /* MNRecord.swift */; };
 		490CAE1921516C5700CE3989 /* Nass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1121516C5700CE3989 /* Nass.swift */; };
 		490CAE1A21516C5700CE3989 /* DatabaseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1221516C5700CE3989 /* DatabaseObjects.swift */; };
@@ -76,6 +76,8 @@
 		490CAE6821516F4A00CE3989 /* MNFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0E21516C5700CE3989 /* MNFile.swift */; };
 		490CAE6B2151907600CE3989 /* PagesWindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE6A2151907600CE3989 /* PagesWindowsController.swift */; };
 		490CAE6D2151925600CE3989 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE6C2151925600CE3989 /* Storage.swift */; };
+		490CAE8F21525B7F00CE3989 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE8E21525B7F00CE3989 /* Compression.swift */; };
+		490CAE93215265E100CE3989 /* Kitab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE92215265E100CE3989 /* Kitab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,7 +133,7 @@
 		490CAE0A21516C4600CE3989 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		490CAE0D21516C5700CE3989 /* StemConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StemConst.swift; sourceTree = "<group>"; };
 		490CAE0E21516C5700CE3989 /* MNFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNFile.swift; sourceTree = "<group>"; };
-		490CAE0F21516C5700CE3989 /* FahresKalimat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FahresKalimat.swift; sourceTree = "<group>"; };
+		490CAE0F21516C5700CE3989 /* DBFahresKalimat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFahresKalimat.swift; sourceTree = "<group>"; };
 		490CAE1021516C5700CE3989 /* MNRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNRecord.swift; sourceTree = "<group>"; };
 		490CAE1121516C5700CE3989 /* Nass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nass.swift; sourceTree = "<group>"; };
 		490CAE1221516C5700CE3989 /* DatabaseObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseObjects.swift; sourceTree = "<group>"; };
@@ -169,6 +171,8 @@
 		490CAE6221516E8800CE3989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490CAE6A2151907600CE3989 /* PagesWindowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesWindowsController.swift; sourceTree = "<group>"; };
 		490CAE6C2151925600CE3989 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		490CAE8E21525B7F00CE3989 /* Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
+		490CAE92215265E100CE3989 /* Kitab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,6 +331,7 @@
 		490CAE0921516C4600CE3989 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				490CAE8E21525B7F00CE3989 /* Compression.swift */,
 				490CAE0A21516C4600CE3989 /* Extentions.swift */,
 			);
 			name = Extensions;
@@ -338,7 +343,7 @@
 			children = (
 				490CAE0D21516C5700CE3989 /* StemConst.swift */,
 				490CAE0E21516C5700CE3989 /* MNFile.swift */,
-				490CAE0F21516C5700CE3989 /* FahresKalimat.swift */,
+				490CAE0F21516C5700CE3989 /* DBFahresKalimat.swift */,
 				490CAE1021516C5700CE3989 /* MNRecord.swift */,
 				490CAE1121516C5700CE3989 /* Nass.swift */,
 				490CAE1221516C5700CE3989 /* DatabaseObjects.swift */,
@@ -356,6 +361,7 @@
 				490CAE2021516C8700CE3989 /* Bahth.swift */,
 				490CAE2121516C8700CE3989 /* DBBooksList.swift */,
 				490CAE2221516C8700CE3989 /* DbKitab.swift */,
+				490CAE92215265E100CE3989 /* Kitab.swift */,
 			);
 			name = controller;
 			path = ../../books/books/controller;
@@ -532,14 +538,16 @@
 				490CAE0021516C2200CE3989 /* Collation.swift in Sources */,
 				490CAE4C21516CA100CE3989 /* NominalTypeDescriptor.swift in Sources */,
 				490CAE5621516CA100CE3989 /* Set.swift in Sources */,
-				490CAE1721516C5700CE3989 /* FahresKalimat.swift in Sources */,
+				490CAE1721516C5700CE3989 /* DBFahresKalimat.swift in Sources */,
 				490CADF421516C2200CE3989 /* Statement.swift in Sources */,
 				490CAE4D21516CA100CE3989 /* Metadata+Kind.swift in Sources */,
 				490CADFE21516C2200CE3989 /* Expression.swift in Sources */,
 				490CAE1621516C5700CE3989 /* MNFile.swift in Sources */,
 				490CADA521516BC400CE3989 /* PagesViewController.swift in Sources */,
+				490CAE93215265E100CE3989 /* Kitab.swift in Sources */,
 				490CADF921516C2200CE3989 /* FTS4.swift in Sources */,
 				490CADF721516C2200CE3989 /* Cipher.swift in Sources */,
+				490CAE8F21525B7F00CE3989 /* Compression.swift in Sources */,
 				490CADF821516C2200CE3989 /* RTree.swift in Sources */,
 				490CADA321516BC400CE3989 /* AppDelegate.swift in Sources */,
 				490CADFB21516C2200CE3989 /* Foundation.swift in Sources */,
