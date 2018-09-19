@@ -11,6 +11,7 @@ depends-top-level:
 - !private "!="
 - !private "+"
 - !private "Array"
+- "AssignmentPrecedence"
 - "Bool"
 - !private "BooleanLiteralType"
 - !private "Bundle"
@@ -35,6 +36,7 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "hasSuffix"]
 - ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s13BinaryIntegerP", "init"]
 - !private ["6kotobi7BindingP", "_getBuiltinLogicValue"]
 - !private ["6kotobi7BindingP", "hasSuffix"]
 - ["6kotobi7BindingP", "init"]
@@ -77,6 +79,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "createDirectory"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
 - !private ["s28CustomDebugStringConvertibleP", "deletingLastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "deletingPathExtension"]
 - !private ["s28CustomDebugStringConvertibleP", "enumerator"]
 - !private ["s28CustomDebugStringConvertibleP", "fileExists"]
 - !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
@@ -92,6 +95,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "deletingLastPathComponent"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deletingPathExtension"]
 - !private ["s29CustomPlaygroundQuickLookableP", "hasSuffix"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "lastPathComponent"]
@@ -111,6 +115,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "createDirectory"]
 - !private ["s23CustomStringConvertibleP", "default"]
 - !private ["s23CustomStringConvertibleP", "deletingLastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "deletingPathExtension"]
 - !private ["s23CustomStringConvertibleP", "enumerator"]
 - !private ["s23CustomStringConvertibleP", "fileExists"]
 - !private ["s23CustomStringConvertibleP", "hasSuffix"]
@@ -127,8 +132,10 @@ depends-member:
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
 - !private ["s9DecodableP", "deletingLastPathComponent"]
+- !private ["s9DecodableP", "deletingPathExtension"]
 - !private ["s9DecodableP", "hasSuffix"]
 - ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "lastPathComponent"]
 - !private ["s9DecodableP", "path"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["So11FileManagerC27DirectoryEnumerationOptionsV", "skipsHiddenFiles"]
@@ -138,8 +145,10 @@ depends-member:
 - !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "append"]
 - !private ["s9EncodableP", "deletingLastPathComponent"]
+- !private ["s9EncodableP", "deletingPathExtension"]
 - !private ["s9EncodableP", "hasSuffix"]
 - ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "lastPathComponent"]
 - !private ["s9EncodableP", "path"]
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EquatableP", "DirectoryEnumerationOptions"]
@@ -152,6 +161,7 @@ depends-member:
 - !private ["s9EquatableP", "createDirectory"]
 - !private ["s9EquatableP", "default"]
 - !private ["s9EquatableP", "deletingLastPathComponent"]
+- !private ["s9EquatableP", "deletingPathExtension"]
 - !private ["s9EquatableP", "documentDirectory"]
 - !private ["s9EquatableP", "enumerator"]
 - !private ["s9EquatableP", "fileExists"]
@@ -187,6 +197,7 @@ depends-member:
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasSuffix"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lastPathComponent"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "hasSuffix"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "lastPathComponent"]
@@ -204,6 +215,7 @@ depends-member:
 - !private ["So11FileManagerC", "isDeletableFile"]
 - !private ["So11FileManagerC", "moveItem"]
 - !private ["So11FileManagerC", "removeItem"]
+- !private ["s17FixedWidthIntegerP", "init"]
 - !private ["s8HashableP", "DirectoryEnumerationOptions"]
 - !private ["s8HashableP", "SearchPathDirectory"]
 - !private ["s8HashableP", "SearchPathDomainMask"]
@@ -213,6 +225,7 @@ depends-member:
 - !private ["s8HashableP", "createDirectory"]
 - !private ["s8HashableP", "default"]
 - !private ["s8HashableP", "deletingLastPathComponent"]
+- !private ["s8HashableP", "deletingPathExtension"]
 - !private ["s8HashableP", "documentDirectory"]
 - !private ["s8HashableP", "enumerator"]
 - !private ["s8HashableP", "fileExists"]
@@ -228,6 +241,7 @@ depends-member:
 - !private ["s8HashableP", "nextObject"]
 - !private ["s8HashableP", "path"]
 - !private ["s8HashableP", "removeItem"]
+- !private ["Si", "init"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "hasSuffix"]
 - ["s25LosslessStringConvertibleP", "init"]
@@ -254,6 +268,9 @@ depends-member:
 - ["6kotobi6MNFileC", "getAppPath"]
 - ["6kotobi6MNFileC", "getDataBasePath"]
 - ["6kotobi6MNFileC", "getDocFolder"]
+- ["6kotobi6MNFileC", "getFahressFolder"]
+- ["6kotobi6MNFileC", "getFihrasPathFromBookId"]
+- ["6kotobi6MNFileC", "getIdFromPath"]
 - ["6kotobi6MNFileC", "init"]
 - ["6kotobi6MNFileC", "moveFileFromDocToBookFolder"]
 - ["6kotobi6MNFileC", "moveFileToBookFolder"]
@@ -328,6 +345,8 @@ depends-member:
 - !private ["So14NSSecureCodingP", "localizedDescription"]
 - !private ["So8NSStringC", "hasSuffix"]
 - !private ["So8NSStringC", "lastPathComponent"]
+- !private ["6kotobi6NumberP", "init"]
+- !private ["s7NumericP", "init"]
 - !private ["s9OptionSetP", "skipsHiddenFiles"]
 - !private ["s9OptionSetP", "skipsPackageDescendants"]
 - !private ["s9OptionSetP", "skipsSubdirectoryDescendants"]
@@ -347,7 +366,9 @@ depends-member:
 - !private ["s16RawRepresentableP", "skipsSubdirectoryDescendants"]
 - !private ["s16RawRepresentableP", "userDomainMask"]
 - !private ["10Foundation20ReferenceConvertibleP", "deletingLastPathComponent"]
+- !private ["10Foundation20ReferenceConvertibleP", "deletingPathExtension"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "lastPathComponent"]
 - !private ["10Foundation20ReferenceConvertibleP", "path"]
 - !private ["So11FileManagerC19SearchPathDirectoryO", "documentDirectory"]
 - !private ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
@@ -360,6 +381,9 @@ depends-member:
 - !private ["s10SetAlgebraP", "skipsPackageDescendants"]
 - !private ["s10SetAlgebraP", "skipsSubdirectoryDescendants"]
 - !private ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s13SignedIntegerP", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s10StrideableP", "init"]
 - !private ["SS", "deinit"]
 - !private ["SS", "hasSuffix"]
 - ["SS", "init"]
@@ -370,7 +394,9 @@ depends-member:
 - !private ["s20TextOutputStreamableP", "hasSuffix"]
 - ["s20TextOutputStreamableP", "init"]
 - !private ["10Foundation3URLV", "deletingLastPathComponent"]
+- !private ["10Foundation3URLV", "deletingPathExtension"]
 - !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "lastPathComponent"]
 - !private ["10Foundation3URLV", "path"]
 - !private ["SC14URLResourceKeyV", "isDirectoryKey"]
 - !private ["SC14URLResourceKeyV", "localizedNameKey"]
@@ -382,12 +408,14 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "append"]
 - !private ["s14_ArrayProtocolP", "init"]
 - !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasSuffix"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasSuffix"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "hasSuffix"]
@@ -395,7 +423,9 @@ depends-member:
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasSuffix"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "deletingLastPathComponent"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "deletingPathExtension"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "lastPathComponent"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
 - !private ["s33_ExpressibleByStringInterpolationP", "hasSuffix"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
@@ -421,9 +451,11 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "deletingLastPathComponent"]
+- !private ["s21_ObjectiveCBridgeableP", "deletingPathExtension"]
 - !private ["s21_ObjectiveCBridgeableP", "hasSuffix"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isDirectoryKey"]
+- !private ["s21_ObjectiveCBridgeableP", "lastPathComponent"]
 - !private ["s21_ObjectiveCBridgeableP", "localizedNameKey"]
 - !private ["s21_ObjectiveCBridgeableP", "path"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
@@ -434,6 +466,7 @@ depends-member:
 depends-nominal:
 - !private "Sa"
 - "s23BidirectionalCollectionP"
+- !private "s13BinaryIntegerP"
 - "6kotobi7BindingP"
 - !private "Sb"
 - !private "So6BundleC"
@@ -454,10 +487,13 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "So11FileManagerC"
+- !private "s17FixedWidthIntegerP"
 - "s8HashableP"
+- !private "Si"
 - "s25LosslessStringConvertibleP"
 - "6kotobi6MNFileC"
 - "s10MirrorPathP"
@@ -476,6 +512,8 @@ depends-nominal:
 - !private "So19NSPasteboardWritingP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
+- !private "6kotobi6NumberP"
+- !private "s7NumericP"
 - !private "s9OptionSetP"
 - !private "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
@@ -485,6 +523,9 @@ depends-nominal:
 - !private "So11FileManagerC20SearchPathDomainMaskV"
 - "s8SequenceP"
 - !private "s10SetAlgebraP"
+- !private "s13SignedIntegerP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
 - "SS"
 - "s14StringProtocolP"
 - "s16TextOutputStreamP"
@@ -494,9 +535,11 @@ depends-nominal:
 - "6kotobi17UTF8InitializableP"
 - "6kotobi5ValueP"
 - !private "s14_ArrayProtocolP"
+- !private "s18_BitwiseOperationsP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
@@ -536,4 +579,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "eba368d1940ba10b69cfda484b67beca"
+interface-hash: "6abdd5521bff275bf6b359ab15679c24"

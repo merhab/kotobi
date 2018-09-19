@@ -78,6 +78,7 @@
 		490CAE6D2151925600CE3989 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE6C2151925600CE3989 /* Storage.swift */; };
 		490CAE8F21525B7F00CE3989 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE8E21525B7F00CE3989 /* Compression.swift */; };
 		490CAE93215265E100CE3989 /* Kitab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE92215265E100CE3989 /* Kitab.swift */; };
+		490CAE95215299CB00CE3989 /* MNSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE94215299CB00CE3989 /* MNSearch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +174,7 @@
 		490CAE6C2151925600CE3989 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		490CAE8E21525B7F00CE3989 /* Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
 		490CAE92215265E100CE3989 /* Kitab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitab.swift; sourceTree = "<group>"; };
+		490CAE94215299CB00CE3989 /* MNSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNSearch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +350,7 @@
 				490CAE1121516C5700CE3989 /* Nass.swift */,
 				490CAE1221516C5700CE3989 /* DatabaseObjects.swift */,
 				490CAE1321516C5700CE3989 /* Kalima.swift */,
+				490CAE94215299CB00CE3989 /* MNSearch.swift */,
 			);
 			name = modal;
 			path = ../../books/books/modal;
@@ -542,6 +545,7 @@
 				490CADF421516C2200CE3989 /* Statement.swift in Sources */,
 				490CAE4D21516CA100CE3989 /* Metadata+Kind.swift in Sources */,
 				490CADFE21516C2200CE3989 /* Expression.swift in Sources */,
+				490CAE95215299CB00CE3989 /* MNSearch.swift in Sources */,
 				490CAE1621516C5700CE3989 /* MNFile.swift in Sources */,
 				490CADA521516BC400CE3989 /* PagesViewController.swift in Sources */,
 				490CAE93215265E100CE3989 /* Kitab.swift in Sources */,

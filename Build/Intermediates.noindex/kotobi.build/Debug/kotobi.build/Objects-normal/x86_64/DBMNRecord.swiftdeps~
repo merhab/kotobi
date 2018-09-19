@@ -29,9 +29,14 @@ depends-top-level:
 - "Field"
 - "Int"
 - !private "Int64"
+- !private "Kalima"
+- !private "KalimaDescription"
+- !private "KalimaTartib"
 - "MNDatabase"
 - "MNrecord"
+- !private "MNrecordParams"
 - !private "Men"
+- !private "Nass"
 - "String"
 - !private "StringLiteralType"
 - !private "UnicodeScalarType"
@@ -145,9 +150,14 @@ depends-member:
 - ["6kotobi10DBMNrecordC", "Field"]
 - ["6kotobi10DBMNrecordC", "Int"]
 - !private ["6kotobi10DBMNrecordC", "Int64"]
+- !private ["6kotobi10DBMNrecordC", "Kalima"]
+- !private ["6kotobi10DBMNrecordC", "KalimaDescription"]
+- !private ["6kotobi10DBMNrecordC", "KalimaTartib"]
 - ["6kotobi10DBMNrecordC", "MNDatabase"]
 - ["6kotobi10DBMNrecordC", "MNrecord"]
+- !private ["6kotobi10DBMNrecordC", "MNrecordParams"]
 - !private ["6kotobi10DBMNrecordC", "Men"]
+- !private ["6kotobi10DBMNrecordC", "Nass"]
 - ["6kotobi10DBMNrecordC", "String"]
 - ["6kotobi10DBMNrecordC", "createTable"]
 - ["6kotobi10DBMNrecordC", "database"]
