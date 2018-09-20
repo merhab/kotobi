@@ -101,6 +101,7 @@ depends-member:
 - !private ["s10ComparableP", "idSafha"]
 - !private ["s10ComparableP", "index"]
 - ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "kalima"]
 - !private ["s10ComparableP", "mnKitabId"]
 - !private ["s10ComparableP", "mnSafhaId"]
 - !private ["s10ComparableP", "mnTartibInSafha"]
@@ -109,7 +110,6 @@ depends-member:
 - !private ["s10ComparableP", "substring"]
 - !private ["s10ComparableP", "suffix"]
 - !private ["s10ComparableP", "tartib"]
-- !private ["s10ComparableP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "contains"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "dropFirst"]
@@ -200,6 +200,7 @@ depends-member:
 - !private ["s9EquatableP", "idSafha"]
 - !private ["s9EquatableP", "index"]
 - ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kalima"]
 - !private ["s9EquatableP", "mnKitabId"]
 - !private ["s9EquatableP", "mnSafhaId"]
 - !private ["s9EquatableP", "mnTartibInSafha"]
@@ -210,7 +211,6 @@ depends-member:
 - !private ["s9EquatableP", "substring"]
 - !private ["s9EquatableP", "suffix"]
 - !private ["s9EquatableP", "tartib"]
-- !private ["s9EquatableP", "text"]
 - !private ["6kotobi11ExpressibleP", "_getBuiltinLogicValue"]
 - !private ["6kotobi11ExpressibleP", "contains"]
 - !private ["6kotobi11ExpressibleP", "count"]
@@ -280,11 +280,11 @@ depends-member:
 - ["6kotobi6KalimaC", "getPrefix"]
 - ["6kotobi6KalimaC", "getSuffix"]
 - ["6kotobi6KalimaC", "init"]
+- ["6kotobi6KalimaC", "kalima"]
 - ["6kotobi6KalimaC", "mnKitabId"]
 - ["6kotobi6KalimaC", "mnSafhaId"]
 - ["6kotobi6KalimaC", "mnTartibInSafha"]
 - !private ["6kotobi6KalimaC", "stride"]
-- ["6kotobi6KalimaC", "text"]
 - ["6kotobi17KalimaDescriptionC", "deinit"]
 - ["6kotobi17KalimaDescriptionC", "init"]
 - ["6kotobi17KalimaDescriptionC", "kalimaDhamir"]
@@ -327,6 +327,7 @@ depends-member:
 - ["6kotobi8MNrecordC", "idKitab"]
 - ["6kotobi8MNrecordC", "idSafha"]
 - ["6kotobi8MNrecordC", "init"]
+- ["6kotobi8MNrecordC", "kalima"]
 - ["6kotobi8MNrecordC", "kalimaDhamir"]
 - ["6kotobi8MNrecordC", "kalimaId"]
 - ["6kotobi8MNrecordC", "kalimaJithr"]
@@ -337,7 +338,6 @@ depends-member:
 - ["6kotobi8MNrecordC", "mnTartibInSafha"]
 - !private ["6kotobi8MNrecordC", "stride"]
 - ["6kotobi8MNrecordC", "tartib"]
-- ["6kotobi8MNrecordC", "text"]
 - !private ["s10MirrorPathP", "contains"]
 - !private ["s10MirrorPathP", "count"]
 - !private ["s10MirrorPathP", "dropFirst"]
@@ -716,4 +716,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "e8eaba9bf6220da3e9b470b18aa39500"
+interface-hash: "ec750c4ebeed73b3fbac9e62076a0078"

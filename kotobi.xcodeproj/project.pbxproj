@@ -37,16 +37,15 @@
 		490CAE0721516C2200CE3989 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 490CADEB21516C2200CE3989 /* Info.plist */; };
 		490CAE0821516C2200CE3989 /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 490CADEF21516C2200CE3989 /* SQLite-Bridging.m */; };
 		490CAE0B21516C4600CE3989 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0A21516C4600CE3989 /* Extentions.swift */; };
-		490CAE1521516C5700CE3989 /* StemConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0D21516C5700CE3989 /* StemConst.swift */; };
+		490CAE1521516C5700CE3989 /* ArabiaThawabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0D21516C5700CE3989 /* ArabiaThawabit.swift */; };
 		490CAE1621516C5700CE3989 /* MNFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0E21516C5700CE3989 /* MNFile.swift */; };
 		490CAE1721516C5700CE3989 /* DBFahresKalimat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0F21516C5700CE3989 /* DBFahresKalimat.swift */; };
 		490CAE1821516C5700CE3989 /* MNRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1021516C5700CE3989 /* MNRecord.swift */; };
-		490CAE1921516C5700CE3989 /* Nass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1121516C5700CE3989 /* Nass.swift */; };
+		490CAE1921516C5700CE3989 /* MNNass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1121516C5700CE3989 /* MNNass.swift */; };
 		490CAE1A21516C5700CE3989 /* DatabaseObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1221516C5700CE3989 /* DatabaseObjects.swift */; };
-		490CAE1B21516C5700CE3989 /* Kalima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1321516C5700CE3989 /* Kalima.swift */; };
+		490CAE1B21516C5700CE3989 /* MNKalima.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1321516C5700CE3989 /* MNKalima.swift */; };
 		490CAE2321516C8700CE3989 /* DBMNRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1E21516C8700CE3989 /* DBMNRecord.swift */; };
 		490CAE2421516C8700CE3989 /* MNRecordSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE1F21516C8700CE3989 /* MNRecordSet.swift */; };
-		490CAE2521516C8700CE3989 /* Bahth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE2021516C8700CE3989 /* Bahth.swift */; };
 		490CAE2621516C8700CE3989 /* DBBooksList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE2121516C8700CE3989 /* DBBooksList.swift */; };
 		490CAE2721516C8700CE3989 /* DbKitab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE2221516C8700CE3989 /* DbKitab.swift */; };
 		490CAE2A21516C9400CE3989 /* MNDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE2921516C9300CE3989 /* MNDatabase.swift */; };
@@ -75,10 +74,15 @@
 		490CAE6121516E8800CE3989 /* kotobiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE6021516E8800CE3989 /* kotobiTests.swift */; };
 		490CAE6821516F4A00CE3989 /* MNFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE0E21516C5700CE3989 /* MNFile.swift */; };
 		490CAE6B2151907600CE3989 /* PagesWindowsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE6A2151907600CE3989 /* PagesWindowsController.swift */; };
-		490CAE6D2151925600CE3989 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE6C2151925600CE3989 /* Storage.swift */; };
 		490CAE8F21525B7F00CE3989 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE8E21525B7F00CE3989 /* Compression.swift */; };
-		490CAE93215265E100CE3989 /* Kitab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE92215265E100CE3989 /* Kitab.swift */; };
+		490CAE93215265E100CE3989 /* MNKitab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE92215265E100CE3989 /* MNKitab.swift */; };
 		490CAE95215299CB00CE3989 /* MNBahth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE94215299CB00CE3989 /* MNBahth.swift */; };
+		490CAEA02153FEF100CE3989 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAE9F2153FEF100CE3989 /* Storage.swift */; };
+		490CAEB02154032300CE3989 /* MNThawabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEAF2154032300CE3989 /* MNThawabit.swift */; };
+		490CAEB521540B6100CE3989 /* MNBahthFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEB421540B6100CE3989 /* MNBahthFi.swift */; };
+		490CAEB721540C1300CE3989 /* MNBahthNatija.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEB621540C1300CE3989 /* MNBahthNatija.swift */; };
+		490CAEB921540FAF00CE3989 /* MNDBBahth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEB821540FAF00CE3989 /* MNDBBahth.swift */; };
+		490CAEBB2154123200CE3989 /* MNDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEBA2154123200CE3989 /* MNDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,16 +136,15 @@
 		490CADEF21516C2200CE3989 /* SQLite-Bridging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SQLite-Bridging.m"; sourceTree = "<group>"; };
 		490CADF021516C2200CE3989 /* fts3_tokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts3_tokenizer.h; sourceTree = "<group>"; };
 		490CAE0A21516C4600CE3989 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
-		490CAE0D21516C5700CE3989 /* StemConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StemConst.swift; sourceTree = "<group>"; };
+		490CAE0D21516C5700CE3989 /* ArabiaThawabit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArabiaThawabit.swift; sourceTree = "<group>"; };
 		490CAE0E21516C5700CE3989 /* MNFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNFile.swift; sourceTree = "<group>"; };
 		490CAE0F21516C5700CE3989 /* DBFahresKalimat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBFahresKalimat.swift; sourceTree = "<group>"; };
 		490CAE1021516C5700CE3989 /* MNRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNRecord.swift; sourceTree = "<group>"; };
-		490CAE1121516C5700CE3989 /* Nass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nass.swift; sourceTree = "<group>"; };
+		490CAE1121516C5700CE3989 /* MNNass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNNass.swift; sourceTree = "<group>"; };
 		490CAE1221516C5700CE3989 /* DatabaseObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseObjects.swift; sourceTree = "<group>"; };
-		490CAE1321516C5700CE3989 /* Kalima.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kalima.swift; sourceTree = "<group>"; };
+		490CAE1321516C5700CE3989 /* MNKalima.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNKalima.swift; sourceTree = "<group>"; };
 		490CAE1E21516C8700CE3989 /* DBMNRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBMNRecord.swift; sourceTree = "<group>"; };
 		490CAE1F21516C8700CE3989 /* MNRecordSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNRecordSet.swift; sourceTree = "<group>"; };
-		490CAE2021516C8700CE3989 /* Bahth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bahth.swift; sourceTree = "<group>"; };
 		490CAE2121516C8700CE3989 /* DBBooksList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBBooksList.swift; sourceTree = "<group>"; };
 		490CAE2221516C8700CE3989 /* DbKitab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DbKitab.swift; sourceTree = "<group>"; };
 		490CAE2921516C9300CE3989 /* MNDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MNDatabase.swift; sourceTree = "<group>"; };
@@ -171,10 +174,15 @@
 		490CAE6021516E8800CE3989 /* kotobiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kotobiTests.swift; sourceTree = "<group>"; };
 		490CAE6221516E8800CE3989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490CAE6A2151907600CE3989 /* PagesWindowsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesWindowsController.swift; sourceTree = "<group>"; };
-		490CAE6C2151925600CE3989 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		490CAE8E21525B7F00CE3989 /* Compression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Compression.swift; sourceTree = "<group>"; };
-		490CAE92215265E100CE3989 /* Kitab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitab.swift; sourceTree = "<group>"; };
+		490CAE92215265E100CE3989 /* MNKitab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNKitab.swift; sourceTree = "<group>"; };
 		490CAE94215299CB00CE3989 /* MNBahth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNBahth.swift; sourceTree = "<group>"; };
+		490CAE9F2153FEF100CE3989 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = reflection/Storage.swift; sourceTree = SOURCE_ROOT; };
+		490CAEAF2154032300CE3989 /* MNThawabit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MNThawabit.swift; path = kotobi/MNThawabit.swift; sourceTree = SOURCE_ROOT; };
+		490CAEB421540B6100CE3989 /* MNBahthFi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNBahthFi.swift; sourceTree = "<group>"; };
+		490CAEB621540C1300CE3989 /* MNBahthNatija.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNBahthNatija.swift; sourceTree = "<group>"; };
+		490CAEB821540FAF00CE3989 /* MNDBBahth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNDBBahth.swift; sourceTree = "<group>"; };
+		490CAEBA2154123200CE3989 /* MNDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -343,14 +351,20 @@
 		490CAE0C21516C5700CE3989 /* modal */ = {
 			isa = PBXGroup;
 			children = (
-				490CAE0D21516C5700CE3989 /* StemConst.swift */,
+				490CAE2921516C9300CE3989 /* MNDatabase.swift */,
+				490CAE1F21516C8700CE3989 /* MNRecordSet.swift */,
+				490CAE92215265E100CE3989 /* MNKitab.swift */,
+				490CAEAF2154032300CE3989 /* MNThawabit.swift */,
+				490CAE0D21516C5700CE3989 /* ArabiaThawabit.swift */,
 				490CAE0E21516C5700CE3989 /* MNFile.swift */,
-				490CAE0F21516C5700CE3989 /* DBFahresKalimat.swift */,
 				490CAE1021516C5700CE3989 /* MNRecord.swift */,
-				490CAE1121516C5700CE3989 /* Nass.swift */,
+				490CAE1121516C5700CE3989 /* MNNass.swift */,
 				490CAE1221516C5700CE3989 /* DatabaseObjects.swift */,
-				490CAE1321516C5700CE3989 /* Kalima.swift */,
+				490CAE1321516C5700CE3989 /* MNKalima.swift */,
 				490CAE94215299CB00CE3989 /* MNBahth.swift */,
+				490CAEB421540B6100CE3989 /* MNBahthFi.swift */,
+				490CAEB621540C1300CE3989 /* MNBahthNatija.swift */,
+				490CAEBA2154123200CE3989 /* MNDate.swift */,
 			);
 			name = modal;
 			path = ../../books/books/modal;
@@ -360,11 +374,10 @@
 			isa = PBXGroup;
 			children = (
 				490CAE1E21516C8700CE3989 /* DBMNRecord.swift */,
-				490CAE1F21516C8700CE3989 /* MNRecordSet.swift */,
-				490CAE2021516C8700CE3989 /* Bahth.swift */,
 				490CAE2121516C8700CE3989 /* DBBooksList.swift */,
 				490CAE2221516C8700CE3989 /* DbKitab.swift */,
-				490CAE92215265E100CE3989 /* Kitab.swift */,
+				490CAE0F21516C5700CE3989 /* DBFahresKalimat.swift */,
+				490CAEB821540FAF00CE3989 /* MNDBBahth.swift */,
 			);
 			name = controller;
 			path = ../../books/books/controller;
@@ -373,7 +386,6 @@
 		490CAE2821516C9300CE3989 /* database */ = {
 			isa = PBXGroup;
 			children = (
-				490CAE2921516C9300CE3989 /* MNDatabase.swift */,
 			);
 			name = database;
 			path = ../../books/books/database;
@@ -382,7 +394,7 @@
 		490CAE2B21516CA100CE3989 /* reflection */ = {
 			isa = PBXGroup;
 			children = (
-				490CAE6C2151925600CE3989 /* Storage.swift */,
+				490CAE9F2153FEF100CE3989 /* Storage.swift */,
 				490CAE2D21516CA100CE3989 /* Array+Extensions.swift */,
 				490CAE2E21516CA100CE3989 /* Metadata.swift */,
 				490CAE2F21516CA100CE3989 /* Construct.swift */,
@@ -544,12 +556,14 @@
 				490CAE1721516C5700CE3989 /* DBFahresKalimat.swift in Sources */,
 				490CADF421516C2200CE3989 /* Statement.swift in Sources */,
 				490CAE4D21516CA100CE3989 /* Metadata+Kind.swift in Sources */,
+				490CAEB921540FAF00CE3989 /* MNDBBahth.swift in Sources */,
 				490CADFE21516C2200CE3989 /* Expression.swift in Sources */,
 				490CAE95215299CB00CE3989 /* MNBahth.swift in Sources */,
 				490CAE1621516C5700CE3989 /* MNFile.swift in Sources */,
 				490CADA521516BC400CE3989 /* PagesViewController.swift in Sources */,
-				490CAE93215265E100CE3989 /* Kitab.swift in Sources */,
+				490CAE93215265E100CE3989 /* MNKitab.swift in Sources */,
 				490CADF921516C2200CE3989 /* FTS4.swift in Sources */,
+				490CAEBB2154123200CE3989 /* MNDate.swift in Sources */,
 				490CADF721516C2200CE3989 /* Cipher.swift in Sources */,
 				490CAE8F21525B7F00CE3989 /* Compression.swift in Sources */,
 				490CADF821516C2200CE3989 /* RTree.swift in Sources */,
@@ -565,7 +579,8 @@
 				490CAE2A21516C9400CE3989 /* MNDatabase.swift in Sources */,
 				490CAE0821516C2200CE3989 /* SQLite-Bridging.m in Sources */,
 				490CAE5921516E2900CE3989 /* Properties.swift in Sources */,
-				490CAE1521516C5700CE3989 /* StemConst.swift in Sources */,
+				490CAEB521540B6100CE3989 /* MNBahthFi.swift in Sources */,
+				490CAE1521516C5700CE3989 /* ArabiaThawabit.swift in Sources */,
 				490CAE0121516C2200CE3989 /* CustomFunctions.swift in Sources */,
 				490CAE5421516CA100CE3989 /* Metadata+Tuple.swift in Sources */,
 				490CAE4621516CA100CE3989 /* NominalType.swift in Sources */,
@@ -580,17 +595,19 @@
 				490CADA721516BC400CE3989 /* Document.swift in Sources */,
 				490CAE5721516CA100CE3989 /* Any+Extensions.swift in Sources */,
 				490CADFA21516C2200CE3989 /* FTS5.swift in Sources */,
-				490CAE1921516C5700CE3989 /* Nass.swift in Sources */,
+				490CAEB721540C1300CE3989 /* MNBahthNatija.swift in Sources */,
+				490CAE1921516C5700CE3989 /* MNNass.swift in Sources */,
+				490CAEB02154032300CE3989 /* MNThawabit.swift in Sources */,
 				490CAE0421516C2200CE3989 /* Operators.swift in Sources */,
 				490CADF321516C2200CE3989 /* Errors.swift in Sources */,
 				490CAE4B21516CA100CE3989 /* RelativePointer.swift in Sources */,
 				490CAE0321516C2200CE3989 /* Setter.swift in Sources */,
-				490CAE1B21516C5700CE3989 /* Kalima.swift in Sources */,
+				490CAE1B21516C5700CE3989 /* MNKalima.swift in Sources */,
 				490CADF121516C2200CE3989 /* Connection.swift in Sources */,
-				490CAE2521516C8700CE3989 /* Bahth.swift in Sources */,
 				490CAE5521516CA100CE3989 /* Get.swift in Sources */,
 				490CAE5021516CA100CE3989 /* UnsafePointer+Extensions.swift in Sources */,
 				490CAE6B2151907600CE3989 /* PagesWindowsController.swift in Sources */,
+				490CAEA02153FEF100CE3989 /* Storage.swift in Sources */,
 				490CAE1A21516C5700CE3989 /* DatabaseObjects.swift in Sources */,
 				490CAE4721516CA100CE3989 /* Identity.swift in Sources */,
 				490CAE0B21516C4600CE3989 /* Extentions.swift in Sources */,
@@ -598,7 +615,6 @@
 				490CAE5121516CA100CE3989 /* Advance.swift in Sources */,
 				490CAE4321516CA100CE3989 /* Array+Extensions.swift in Sources */,
 				490CAE4E21516CA100CE3989 /* ValueWitnessTable.swift in Sources */,
-				490CAE6D2151925600CE3989 /* Storage.swift in Sources */,
 				490CAE2321516C8700CE3989 /* DBMNRecord.swift in Sources */,
 				490CAE4F21516CA100CE3989 /* Metadata+Struct.swift in Sources */,
 			);
