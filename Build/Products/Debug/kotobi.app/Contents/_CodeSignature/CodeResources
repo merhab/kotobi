@@ -175,6 +175,15 @@
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftSwiftOnoneSupport" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: merhab@merhab.com (968XV8XM33)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
+		<key>Frameworks/libswiftXCTest.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			PMcPWZUU/yhEuB6mulJ/sbEp+jc=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftXCTest" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: merhab@merhab.com (968XV8XM33)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
 		<key>Frameworks/libswiftXPC.dylib</key>
 		<dict>
 			<key>cdhash</key>
@@ -197,10 +206,10 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			vCRz0392RenXSlW769G8H/Jav5E=
+			Fiwas7+K1suzR/jV8iA6O9DdKJs=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"bc2473d37f7645e9d74a55bbebd1bc1ff25abf91"</string>
+			<string>cdhash H"162c1ab3bf8ad6cbb347f8d5f2203a3bd0dd289b"</string>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/5gI-5U-AMq-view-ERx-hH-rdd.nib</key>
 		<dict>

@@ -23,7 +23,12 @@ class kotobiTests: XCTestCase {
     
     func testExample() {
         let bahth = MNBahth(bahth: "العلم لله أو لا أدري ماذا")
-        print(bahth.sqlBahth)
+        let strs = bahth.getSqlBahth(kalimaat: bahth.normalizedBahthWords)
+        for i in strs.indices {
+            print("%%%%%%%%%%%%%%%%")
+            print(strs[i])
+            print("&&&&&&&&&&&&&&&&")
+        }
         
     }
     
