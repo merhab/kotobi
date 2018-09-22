@@ -83,6 +83,7 @@
 		490CAEB721540C1300CE3989 /* MNBahthNatija.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEB621540C1300CE3989 /* MNBahthNatija.swift */; };
 		490CAEB921540FAF00CE3989 /* MNDBBahth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEB821540FAF00CE3989 /* MNDBBahth.swift */; };
 		490CAEBB2154123200CE3989 /* MNDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CAEBA2154123200CE3989 /* MNDate.swift */; };
+		4988B6892156331C00602BC1 /* MNKitabSinf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4988B6882156331C00602BC1 /* MNKitabSinf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -183,6 +184,7 @@
 		490CAEB621540C1300CE3989 /* MNBahthNatija.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNBahthNatija.swift; sourceTree = "<group>"; };
 		490CAEB821540FAF00CE3989 /* MNDBBahth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNDBBahth.swift; sourceTree = "<group>"; };
 		490CAEBA2154123200CE3989 /* MNDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNDate.swift; sourceTree = "<group>"; };
+		4988B6882156331C00602BC1 /* MNKitabSinf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNKitabSinf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -365,6 +367,7 @@
 				490CAEB421540B6100CE3989 /* MNBahthFi.swift */,
 				490CAEB621540C1300CE3989 /* MNBahthNatija.swift */,
 				490CAEBA2154123200CE3989 /* MNDate.swift */,
+				4988B6882156331C00602BC1 /* MNKitabSinf.swift */,
 			);
 			name = modal;
 			path = ../../books/books/modal;
@@ -588,6 +591,7 @@
 				490CAE4921516CA100CE3989 /* MetadataType.swift in Sources */,
 				490CADFC21516C2200CE3989 /* Query.swift in Sources */,
 				490CADFF21516C2200CE3989 /* CoreFunctions.swift in Sources */,
+				4988B6892156331C00602BC1 /* MNKitabSinf.swift in Sources */,
 				490CAE0221516C2200CE3989 /* DateAndTimeFunctions.swift in Sources */,
 				490CAE2721516C8700CE3989 /* DbKitab.swift in Sources */,
 				490CADFD21516C2200CE3989 /* Coding.swift in Sources */,
